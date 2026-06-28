@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Media Free Djibouti : actualités internationales, politique, santé, sports, reportages, cultures et informations spéciales.">
+  <title>MEDIA FREE DJIBOUTI — L’Œil du peuple</title>
+
+  <style>
+    :root {
+      --navy:#101827;
+      --navy-light:#1b2940;
+      --red:#c8102e;
+      --paper:#fff;
+      --background:#eef1f5;
+      --text:#202939;
+      --muted:#667085;
+      --border:#dfe3e8;
+      --shadow:0 12px 32px rgba(16,24,39,.09);
+      --max-width:1220px;
+    }
+
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      background:var(--background);
+      color:var(--text);
+      font-family:Arial,Helvetica,sans-serif;
+      line-height:1.65;
+    }
+    a { color:inherit; }
+    button,input { font:inherit; }
+    [hidden] { display:none !important; }
+
+    .site-header {
+      background:var(--navy);
+      color:#fff;
+      border-bottom:5px solid var(--red);
+    }
+    .brand-area {
+      width:min(var(--max-width),calc(100% - 32px));
+      margin:auto;
+      padding:30px 0 24px;
+      text-align:center;
+    }
+    .brand {
+      display:inline-flex;
+      flex-direction:column;
+      color:#fff;
+      text-decoration:none;
+    }
+    .brand-main {
+      font-size:clamp(2rem,5vw,3.15rem);
+      font-weight:900;
+      letter-spacing:.045em;
+      line-height:1;
+    }
+    .brand-tagline {
+      margin-top:7px;
+      color:#f4c6cf;
+      font-weight:800;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+    }
+    .site-description { margin:15px 0 0;color:#d0d5dd; }
+    .main-navigation { background:var(--navy-light); }
+    .navigation-list {
+      display:flex;
+      width:min(var(--max-width),100%);
+      margin:auto;
+      padding:0 14px;
+      overflow-x:auto;
+      list-style:none;
+    }
+    .navigation-list li { flex:0 0 auto; }
+    .navigation-list a {
+      display:block;
+      padding:15px 13px;
+      color:#fff;
+      font-size:.79rem;
+      font-weight:800;
+      text-decoration:none;
+      text-transform:uppercase;
+      white-space:nowrap;
+    }
+    .navigation-list a:hover { background:var(--red); }
+
+    main {
+      width:min(var(--max-width),calc(100% - 32px));
+      margin:auto;
+      padding:36px 0 72px;
+    }
+    .eyebrow,.section-label {
+      margin:0 0 5px;
+      color:var(--red);
+      font-size:.74rem;
+      font-weight:900;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    .search-panel {
+      display:grid;
+      grid-template-columns:minmax(0,1fr) minmax(280px,.65fr);
+      gap:30px;
+      align-items:center;
+      margin-bottom:38px;
+      padding:27px 30px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+    }
+    .search-panel h1 {
+      margin:0;
+      color:var(--navy);
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(1.65rem,3vw,2.4rem);
+    }
+    .search-input {
+      width:100%;
+      padding:14px 17px;
+      border:2px solid #cbd2da;
+      border-radius:9px;
+      outline:none;
+    }
+    .search-input:focus {
+      border-color:var(--red);
+      box-shadow:0 0 0 4px rgba(200,16,46,.12);
+    }
+
+    .featured-section {
+      margin-bottom:58px;
+      padding:30px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-top:7px solid var(--red);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+    }
+    .featured-heading {
+      display:flex;
+      justify-content:space-between;
+      gap:22px;
+      align-items:end;
+      margin-bottom:25px;
+    }
+    .featured-heading h2 {
+      margin:0;
+      color:var(--red);
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(2rem,4vw,3rem);
+    }
+    .black-star { color:#000;margin-right:8px; }
+    .featured-rule {
+      max-width:430px;
+      margin:0;
+      color:var(--muted);
+      text-align:right;
+    }
+    .featured-grid {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:22px;
+    }
+    .featured-card {
+      overflow:hidden;
+      border:1px solid #d9dee5;
+      border-radius:13px;
+      background:#fff;
+    }
+    .featured-visual {
+      position:relative;
+      min-height:190px;
+      display:flex;
+      align-items:end;
+      padding:22px;
+      background:linear-gradient(135deg,#101827,#c8102e);
+      color:#fff;
+    }
+    .featured-visual strong {
+      max-width:82%;
+      font-size:clamp(1.35rem,2.5vw,2.2rem);
+      line-height:1.12;
+    }
+    .live-badge,.countdown {
+      position:absolute;
+      top:15px;
+      padding:7px 10px;
+      border-radius:7px;
+      font-size:.72rem;
+      font-weight:900;
+    }
+    .live-badge { left:15px;background:#ffcc33;color:#111827; }
+    .countdown { right:15px;background:rgba(0,0,0,.76);color:#fff; }
+    .featured-body { padding:22px; }
+    .featured-category {
+      margin:0 0 8px;
+      color:var(--red);
+      font-size:.75rem;
+      font-weight:900;
+      text-transform:uppercase;
+    }
+    .featured-body h3 {
+      margin:0 0 12px;
+      color:var(--navy);
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:1.55rem;
+    }
+
+    .news-section {
+      --category-color:#1261a0;
+      margin-bottom:62px;
+      padding:29px 30px 31px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      scroll-margin-top:20px;
+    }
+    .section-header {
+      display:flex;
+      justify-content:space-between;
+      align-items:end;
+      gap:20px;
+    }
+    .section-header h2 {
+      margin:0;
+      color:var(--category-color);
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(1.9rem,4vw,2.75rem);
+    }
+    .section-label { color:var(--category-color); }
+    .article-count {
+      padding:6px 11px;
+      background:var(--navy);
+      color:#fff;
+      border-radius:999px;
+      font-size:.75rem;
+      font-weight:800;
+    }
+    .tricolor-rule,.article-separator {
+      display:grid;
+      grid-template-columns:1fr 1fr 1fr;
+      height:6px;
+      overflow:hidden;
+      border:1px solid #aeb6c0;
+      border-radius:999px;
+    }
+    .tricolor-rule { margin:18px 0 28px; }
+    .article-separator { margin:27px 0;height:5px; }
+    .tricolor-rule span:nth-child(1),.article-separator span:nth-child(1) { background:#1261a0; }
+    .tricolor-rule span:nth-child(2),.article-separator span:nth-child(2) { background:#0b0b0b; }
+    .tricolor-rule span:nth-child(3),.article-separator span:nth-child(3) { background:#fff; }
+
+    .article-card {
+      display:grid;
+      grid-template-columns:minmax(220px,.36fr) minmax(0,1fr);
+      min-height:230px;
+      overflow:hidden;
+      background:#fff;
+      border:1px solid #e1e5eb;
+      border-radius:13px;
+      box-shadow:0 8px 22px rgba(16,24,39,.07);
+    }
+    .article-visual {
+      position:relative;
+      display:flex;
+      align-items:end;
+      min-height:230px;
+      padding:21px;
+      background:linear-gradient(145deg,#101827,var(--category-color));
+      color:#fff;
+      text-decoration:none;
+    }
+    .article-number {
+      position:absolute;
+      top:15px;
+      left:15px;
+      padding:6px 10px;
+      background:#fff;
+      color:#111827;
+      border-radius:999px;
+      font-size:.72rem;
+      font-weight:900;
+    }
+    .article-visual-label { font-size:1.45rem;font-weight:900; }
+    .article-content {
+      display:flex;
+      flex-direction:column;
+      padding:25px 27px;
+    }
+    .article-category {
+      margin:0 0 7px;
+      color:var(--category-color);
+      font-size:.74rem;
+      font-weight:900;
+      text-transform:uppercase;
+    }
+    .article-title {
+      margin:0 0 12px;
+      color:var(--navy);
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(1.45rem,2.6vw,2.05rem);
+      line-height:1.22;
+    }
+    .article-title a { text-decoration:none; }
+    .article-summary { flex:1;margin:0 0 17px;color:#4b5565; }
+    .article-date { margin-bottom:17px;color:var(--muted);font-size:.83rem; }
+    .read-button {
+      display:inline-flex;
+      align-self:flex-start;
+      padding:10px 16px;
+      background:var(--category-color,var(--red));
+      color:#fff;
+      border:0;
+      border-radius:7px;
+      font-weight:800;
+      text-decoration:none;
+      cursor:pointer;
+    }
+    .empty-section {
+      padding:27px;
+      background:#f8fafc;
+      border:1px dashed #b9c1cc;
+      border-radius:10px;
+      color:var(--muted);
+      text-align:center;
+    }
+
+    .reader {
+      width:min(980px,calc(100% - 30px));
+      margin:38px auto 70px;
+    }
+    .reader-card {
+      overflow:hidden;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+    }
+    .reader-hero {
+      padding:clamp(28px,6vw,62px);
+      background:linear-gradient(135deg,var(--reader-color),#111827);
+      color:#fff;
+    }
+    .reader-kicker {
+      display:inline-block;
+      padding:6px 10px;
+      background:#fff;
+      color:var(--reader-color);
+      border-radius:999px;
+      font-size:.74rem;
+      font-weight:900;
+      text-transform:uppercase;
+    }
+    .reader-hero h1 {
+      margin:18px 0;
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(2rem,5vw,3.65rem);
+      line-height:1.08;
+    }
+    .reader-deck { max-width:830px;font-size:1.15rem;color:#f1f3f5; }
+    .reader-date { color:#d8dde5; }
+    .reader-body { padding:clamp(25px,6vw,58px); }
+    .reader-body p { margin:0 0 21px;font-size:1.07rem; }
+    .reader-body h2,.reader-body h3 {
+      margin:40px 0 15px;
+      padding-bottom:8px;
+      color:var(--reader-color);
+      font-family:Georgia,"Times New Roman",serif;
+      border-bottom:2px solid #e4e7ec;
+    }
+    .article-note {
+      margin:30px 0;
+      padding:18px 20px;
+      background:#fff7e6;
+      border-left:5px solid #d68a00;
+    }
+    .back-button {
+      display:inline-block;
+      margin-bottom:20px;
+      padding:11px 17px;
+      background:var(--navy);
+      color:#fff;
+      border-radius:7px;
+      font-weight:800;
+      text-decoration:none;
+    }
+    .site-footer {
+      padding:37px 20px;
+      background:var(--navy);
+      color:#cfd4dc;
+      text-align:center;
+      border-top:5px solid var(--red);
+    }
+
+    @media(max-width:850px) {
+      .search-panel,.article-card { grid-template-columns:1fr; }
+      .featured-grid { grid-template-columns:1fr; }
+      .article-visual { min-height:190px; }
+    }
+    @media(max-width:650px) {
+      main { width:min(100% - 18px,var(--max-width));padding-top:20px; }
+      .search-panel,.featured-section,.news-section { padding:20px; }
+      .featured-heading,.section-header { align-items:flex-start;flex-direction:column; }
+      .featured-rule { text-align:left; }
+      .article-content { padding:21px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="home-view">
+    <header class="site-header">
+      <div class="brand-area">
+        <a class="brand" href="#accueil">
+          <span class="brand-main">MEDIA FREE DJIBOUTI</span>
+          <span class="brand-tagline">L’Œil du peuple</span>
+        </a>
+        <p class="site-description">Information quotidienne, indépendante et en continu.</p>
+      </div>
+
+      <nav class="main-navigation">
+        <ul class="navigation-list">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-la-une">À la une</a></li>
+          <li><a href="#international">International</a></li>
+          <li><a href="#politique">Politique</a></li>
+          <li><a href="#sante">Santé</a></li>
+          <li><a href="#sports">Sports</a></li>
+          <li><a href="#reportage">Reportage</a></li>
+          <li><a href="#cultures">Cultures</a></li>
+          <li><a href="#info-speciale">Info spéciale</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="accueil">
+      <section class="search-panel">
+        <div>
+          <p class="eyebrow">Archives du média</p>
+          <h1>Rechercher une publication</h1>
+        </div>
+        <input id="article-search" class="search-input" type="search"
+          placeholder="Exemple : Venezuela, Ebola, Éthiopie…">
+      </section>
+
+      <section id="a-la-une" class="featured-section">
+        <div class="featured-heading">
+          <div>
+            <p class="eyebrow">Informations publiées depuis moins de 24 heures</p>
+            <h2><span class="black-star">★</span>À la une</h2>
+          </div>
+          <p class="featured-rule">Le chronomètre disparaît automatiquement après 24 heures.</p>
+        </div>
+        <div id="featured-articles" class="featured-grid"></div>
+      </section>
+
+      
+    <section id="international" class="news-section" style="--category-color:#1261a0;">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 01</p>
+          <h2><span class="black-star">★</span>Actualités internationales</h2>
+        </div>
+        <span class="article-count" data-count="international">0 article</span>
+      </div>
+      <div class="tricolor-rule"><span></span><span></span><span></span></div>
+      <div class="category-articles" data-category="international"></div>
+    </section>
+    
+    <section id="politique" class="news-section" style="--category-color:#b42318;">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 02</p>
+          <h2><span class="black-star">★</span>Politique</h2>
+        </div>
+        <span class="article-count" data-count="politique">0 article</span>
+      </div>
+      <div class="tricolor-rule"><span></span><span></span><span></span></div>
+      <div class="category-articles" data-category="politique"></div>
+    </section>
+    
+    <section id="sante" class="news-section" style="--category-color:#087f5b;">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 03</p>
+          <h2><span class="black-star">★</span>Santé</h2>
+        </div>
+        <span class="article-count" data-count="sante">0 article</span>
+      </div>
+      <div class="tricolor-rule"><span></span><span></span><span></span></div>
+      <div class="category-articles" data-category="sante"></div>
+    </section>
+    
+    <section id="sports" class="news-section" style="--category-color:#d97706;">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 04</p>
+          <h2><span class="black-star">★</span>Sports</h2>
+        </div>
+        <span class="article-count" data-count="sports">0 article</span>
+      </div>
+      <div class="tricolor-rule"><span></span><span></span><span></span></div>
+      <div class="category-articles" data-category="sports"></div>
+    </section>
+    
+    <section id="reportage" class="news-section" style="--category-color:#6938a6;">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 05</p>
+          <h2><span class="black-star">★</span>Reportage</h2>
+        </div>
+        <span class="article-count" data-count="reportage">0 article</span>
+      </div>
+      <div class="tricolor-rule"><span></span><span></span><span></span></div>
+      <div class="category-articles" data-category="reportage"></div>
+    </section>
+    
+    <section id="cultures" class="news-section" style="--category-color:#9a6700;">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 06</p>
+          <h2><span class="black-star">★</span>Cultures</h2>
+        </div>
+        <span class="article-count" data-count="cultures">0 article</span>
+      </div>
+      <div class="tricolor-rule"><span></span><span></span><span></span></div>
+      <div class="category-articles" data-category="cultures"></div>
+    </section>
+    
+    <section id="info-speciale" class="news-section" style="--category-color:#ad1457;">
+      <div class="section-header">
+        <div>
+          <p class="section-label">Rubrique 07</p>
+          <h2><span class="black-star">★</span>Info spéciale</h2>
+        </div>
+        <span class="article-count" data-count="info-speciale">0 article</span>
+      </div>
+      <div class="tricolor-rule"><span></span><span></span><span></span></div>
+      <div class="category-articles" data-category="info-speciale"></div>
+    </section>
+    
+    </main>
+  </div>
+
+  <section id="reader-view" class="reader" hidden>
+    <a id="reader-back" class="back-button" href="#accueil">← Retour aux rubriques</a>
+    <article class="reader-card" style="--reader-color:#1261a0;">
+      <header class="reader-hero">
+        <span id="reader-kicker" class="reader-kicker"></span>
+        <h1 id="reader-title"></h1>
+        <p id="reader-deck" class="reader-deck"></p>
+        <p id="reader-date" class="reader-date"></p>
+      </header>
+      <div id="reader-body" class="reader-body"></div>
+    </article>
+  </section>
+
+  <footer class="site-footer">
+    <strong>MEDIA FREE DJIBOUTI</strong>
+    <p>L’Œil du peuple — Information quotidienne et en continu.</p>
+    <p>© 2026 — Tous droits réservés</p>
+  </footer>
+
+  <script>
+    "use strict";
+
+    const ARTICLES = [{"id": "venezuela-seismes", "number": "ART 1", "category": "international", "categoryName": "Actualités internationales", "publishedAt": "2026-06-28T10:30:00+02:00", "color": "#1261a0", "lang": "fr", "title": "Venezuela : le bilan du double séisme dépasse 1 400 morts", "summary": "Les deux puissantes secousses qui ont frappé le nord du Venezuela ont\n          provoqué d’importantes destructions, particulièrement dans l’État de\n          La Guaira. Les opérations de secours se poursuivent.", "body": "<p>\n          Le Venezuela fait face à une catastrophe humanitaire majeure après les\n          deux puissants séismes de magnitude 7,2 et 7,5 qui ont frappé le nord\n          du pays mercredi 24 juin 2026.\n        </p>\n<p>\n          Le bilan provisoire, initialement établi à 164 morts, s’élève désormais\n          à au moins 1 430 décès et 3 238 blessés, selon les chiffres communiqués\n          par les autorités. Des dizaines de milliers de personnes restent\n          portées disparues.\n        </p>\n<h2>La Guaira parmi les zones les plus durement touchées</h2>\n<p>\n          Les secousses ont laissé un paysage de dévastation, avec de nombreux\n          immeubles effondrés à Caracas et dans plusieurs régions du nord du pays.\n          La ville côtière de La Guaira figure parmi les secteurs les plus\n          gravement touchés.\n        </p>\n<p>\n          Les habitants, les familles et les bénévoles réclament davantage de\n          machines spécialisées afin de déplacer les imposants blocs de béton et\n          de découper les structures métalliques qui ralentissent les recherches.\n        </p>\n<h2>Des millions de personnes potentiellement affectées</h2>\n<p>\n          Selon l’Organisation internationale pour les migrations, jusqu’à\n          6,76 millions de personnes pourraient avoir été affectées par la\n          catastrophe, dont près de deux millions dans la région de Caracas.\n        </p>\n<p>\n          Les besoins en soins médicaux, en eau potable, en nourriture, en\n          hébergements temporaires et en équipements de recherche augmentent\n          rapidement dans les zones sinistrées.\n        </p>\n<h2>Des hôpitaux débordés</h2>\n<p>\n          Plusieurs établissements de santé sont soumis à une pression\n          considérable. Des familles disent avoir dû transporter elles-mêmes\n          leurs proches décédés, les services hospitaliers et funéraires étant\n          débordés par l’afflux de victimes.\n        </p>\n<h2>Une nouvelle secousse enregistrée samedi</h2>\n<p>\n          Un nouveau tremblement de terre de magnitude 4,8 a été enregistré\n          samedi. Son épicentre se situait à environ 70 kilomètres à l’ouest de\n          Caracas et à une profondeur estimée à 10 kilomètres.\n        </p>\n<p>\n          La répétition des secousses complique le travail des équipes de secours\n          et augmente les risques autour des bâtiments déjà fragilisés.\n        </p>\n<h2>Un nouveau-né retrouvé vivant</h2>\n<p>\n          Un nouveau-né a été extrait vivant des décombres d’un bâtiment effondré\n          à La Guaira, environ 32 heures après la catastrophe. Ce sauvetage a\n          entretenu l’espoir de retrouver d’autres survivants.\n        </p>\n<div class=\"article-note\">\n<strong>Information évolutive :</strong>\n          les bilans humains et matériels peuvent être révisés à mesure que les\n          équipes de secours accèdent aux secteurs les plus endommagés.\n        </div>"}, {"id": "ethiopie-abiy-ahmed", "number": "ART 1", "category": "politique", "categoryName": "Politique", "publishedAt": "2026-06-24T14:15:00+02:00", "color": "#b42318", "lang": "so", "title": "Itoobiya: Abiy Axmed oo xoojiyey awooddiisa kadib guul weyn oo doorasho", "summary": "Xisbiga Barwaaqo ayaa helay aqlabiyad ballaaran oo baarlamaanka ah,\n          balse dowladda cusub waxay weli wajahaysaa caqabado dhinacyada amniga,\n          dhaqaalaha iyo dib-u-heshiisiinta ah.", "body": "<p>\n          Ra’iisul Wasaaraha Itoobiya, Abiy Axmed, ayaa si weyn ugu guuleystay\n          doorashooyinkii guud ee ugu dambeeyay ee dalka laga qabtay. Xisbigiisa,\n          Xisbiga Barwaaqo, ayaa ku guuleystay 438 kursi oo ka mid ah 501 kursi\n          oo baarlamaanka loo tartamay.\n        </p>\n<p>\n          Natiijadan ayaa xisbiga u xaqiijisay aqlabiyad ballaaran oo u saamaxaysa\n          inuu soo dhiso dowladda cusub, isla markaana uu sii wado barnaamijkiisa\n          siyaasadeed muddo xileed kale.\n        </p>\n<h2>Guul siyaasadeed oo muhiim ah</h2>\n<p>\n          Taageerayaasha dowladda waxay aaminsan yihiin in aqlabiyaddan cusub ay\n          siinayso Abiy Axmed awood siyaasadeed oo uu ku sii wadi karo\n          dib-u-habaynta hay’adaha dowladda, casriyeynta dhaqaalaha iyo\n          mashaariicda horumarinta qaranka.\n        </p>\n<h2>Doorasho ka dhacday jawi siyaasadeed oo cakiran</h2>\n<p>\n          Si kastaba ha ahaatee, doorashadan ayaa ku dhacday jawi aad u cakiran.\n          Gobollo badan oo dalka ka tirsan ayaa wajahaya dhibaatooyin amni,\n          khilaafaad siyaasadeed iyo xiisado bulsho.\n        </p>\n<p>\n          Qaar ka mid ah xisbiyada mucaaradka ayaa ku eedeeyay hanaanka doorashada\n          inuusan ahayn mid si buuxda ugu dhisnaa caddaalad, tartan siman iyo\n          ka-qaybgal siyaasadeed oo loo wada dhan yahay.\n        </p>\n<h2>Caqabadaha horyaalla dowladda cusub</h2>\n<p>\n          Dowladda cusub waxay wajahaysaa caqabado ay ka mid yihiin xoojinta\n          amniga, soo celinta kalsoonida shacabka, dib-u-heshiisiinta bulshada,\n          ilaalinta xuquuqda muwaadiniinta, la dagaallanka sicir-bararka iyo\n          abuurista fursado shaqo oo loogu talagalay dhalinyarada.\n        </p>\n<h2>Gunaanad</h2>\n<p>\n          Guusha doorashada waxay Abiy Axmed siinaysaa awood siyaasadeed oo weyn,\n          balse aqlabiyad baarlamaan keliya ma xallin karto dhibaatooyinka qotada\n          dheer ee Itoobiya. Mustaqbalka dowladda waxaa lagu qiimeyn doonaa\n          awoodda ay u leedahay inay soo celiso nabadda, hagaajiso dhaqaalaha iyo\n          inay dhisto nidaam siyaasadeed oo loo dhan yahay.\n        </p>\n<div class=\"article-note\">\n<strong>Ogeysiiska tifaftirka:</strong>\n          xogta doorashada iyo sheegashooyinka siyaasadeed waa in lagu\n          xaqiijiyaa ilo rasmi ah ka hor daabacaad kasta oo cusub.\n        </div>"}, {"id": "kenya-quarantaine-ebola", "number": "ART 2", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T12:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Kenya : le gouvernement suspend l’ouverture d’un centre de quarantaine lié à Ebola", "summary": "Le projet installé sur la base aérienne de Laikipia suscite une vive\n          contestation. Les autorités ont annoncé l’arrêt des travaux dans\n          l’attente d’une nouvelle décision de justice.", "body": "<p>\n          Le gouvernement kényan a ordonné la suspension de l’ouverture d’un\n          centre de quarantaine construit avec le soutien des États-Unis pour\n          accueillir des personnes potentiellement exposées au virus Ebola.\n        </p>\n<p>\n          Cette décision a été annoncée par le ministre kényan de la Santé,\n          Aden Duale, lors de sa comparution devant la Haute Cour du Kenya.\n        </p>\n<h2>Arrêt immédiat des travaux</h2>\n<p>\n          Le ministre a déclaré avoir ordonné l’arrêt complet et immédiat de tous\n          les travaux de construction, de préparation du site et de mise en\n          service de l’infrastructure.\n        </p>\n<p>\n          La suspension doit rester en vigueur dans l’attente de l’examen du\n          recours déposé contre le projet et d’une nouvelle décision judiciaire.\n        </p>\n<h2>Un centre presque achevé</h2>\n<p>\n          Le centre, installé sur la base aérienne de Laikipia, devait disposer\n          de 50 lits d’isolement. Les travaux étaient présentés comme presque\n          achevés au début du mois de juin.\n        </p>\n<h2>Une inquiétude grandissante</h2>\n<p>\n          De nombreux citoyens redoutent que l’installation n’augmente le risque\n          d’introduction du virus dans le pays. Ils demandent des informations\n          précises sur les personnes susceptibles d’être accueillies, les\n          procédures de transfert et les mesures de protection prévues.\n        </p>\n<p>\n          Les habitants souhaitent également obtenir des garanties concernant la\n          gestion des déchets médicaux, les protocoles d’isolement, les capacités\n          de dépistage et les procédures prévues en cas de contamination.\n        </p>\n<h2>Une question de souveraineté et de transparence</h2>\n<p>\n          Au-delà de la question sanitaire, le projet soulève des interrogations\n          sur les accords encadrant l’infrastructure, la responsabilité de chaque\n          partie et le contrôle exercé par les autorités kényanes.\n        </p>\n<p>\n          Dans une affaire aussi sensible, la protection de la santé publique\n          suppose une communication régulière, le respect des décisions de\n          justice et un contrôle indépendant des installations.\n        </p>"}, {"id": "ebola-mobilisation-africaine", "number": "ART 1", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T09:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Ebola : une mobilisation africaine tardive face à une urgence sanitaire grandissante", "summary": "La tenue d’une réunion virtuelle consacrée à l’épidémie constitue une\n          étape utile, mais son caractère tardif soulève des interrogations sur la\n          rapidité et l’efficacité de la réponse sanitaire.", "body": "<p>\n          Plusieurs chefs d’État et de gouvernement africains ont participé à une\n          réunion virtuelle consacrée à l’évolution de l’épidémie de maladie à\n          virus Ebola et aux moyens nécessaires pour renforcer la coordination\n          régionale.\n        </p>\n<p>\n          Cette rencontre intervient plusieurs semaines après la déclaration\n          officielle de l’épidémie en République démocratique du Congo. Cette\n          chronologie alimente les interrogations sur la rapidité de la réponse\n          politique et sur les moyens effectivement mobilisés.\n        </p>\n<h2>Pourquoi avoir attendu plusieurs semaines ?</h2>\n<p>\n          Face à Ebola, chaque journée perdue peut compliquer le traçage des\n          contacts, augmenter le risque de propagation et alourdir la pression\n          exercée sur les structures sanitaires.\n        </p>\n<p>\n          Une réponse efficace exige une coordination rapide : mobilisation des\n          équipes médicales, préparation des frontières, information du public,\n          renforcement des laboratoires et mise à disposition de moyens\n          financiers et logistiques vérifiables.\n        </p>\n<h2>Des discussions, mais quelles décisions concrètes ?</h2>\n<p>\n          Les responsables ont évoqué le renforcement du dépistage, du traçage des\n          contacts, de la surveillance épidémiologique et de la coopération\n          régionale. Ces priorités sont essentielles, mais elles doivent être\n          accompagnées d’engagements chiffrés et d’un calendrier public.\n        </p>\n<p>\n          Sans précisions sur les budgets, les équipes déployées et la répartition\n          des responsabilités, une réunion diplomatique risque de ne pas répondre\n          suffisamment vite aux besoins des populations.\n        </p>\n<h2>Djibouti doit préciser son dispositif de prévention</h2>\n<p>\n          Les autorités djiboutiennes devraient expliquer publiquement les\n          procédures prévues pour contrôler les voyageurs en provenance des zones\n          touchées, les capacités de dépistage disponibles et les mesures\n          d’urgence applicables en cas de cas suspect.\n        </p>\n<p>\n          Il serait également utile de publier régulièrement des informations sur\n          les stocks de matériel de protection, les moyens financiers disponibles\n          et les capacités d’accueil des structures de santé.\n        </p>\n<h2>La transparence ne doit pas être optionnelle</h2>\n<p>\n          Lorsqu’une maladie grave menace plusieurs pays, la transparence doit\n          devenir une obligation. Les citoyens doivent pouvoir connaître les\n          engagements pris, les décisions adoptées et les actions réellement\n          mises en œuvre après les réunions officielles.\n        </p>\n<h2>Conclusion</h2>\n<p>\n          Face à Ebola, les populations africaines ont besoin d’États capables\n          d’anticiper, de prévenir, d’informer et d’agir avant que la situation ne\n          devienne incontrôlable.\n        </p>\n<p>\n          Des enquêtes scientifiques transparentes sont également nécessaires\n          afin de comprendre l’origine de chaque foyer, les chaînes de\n          transmission et les facteurs ayant favorisé la propagation du virus.\n        </p>\n<div class=\"article-note\">\n<strong>Précaution éditoriale :</strong>\n          les chiffres sanitaires et les déclarations officielles doivent être\n          actualisés et vérifiés avant toute republication.\n        </div>"}];
+    const FEATURED_DURATION = 24 * 60 * 60 * 1000;
+    const searchInput = document.getElementById("article-search");
+    const homeView = document.getElementById("home-view");
+    const readerView = document.getElementById("reader-view");
+    const featuredSection = document.getElementById("a-la-une");
+    const featuredContainer = document.getElementById("featured-articles");
+    let searchValue = "";
+
+    const esc = value => String(value)
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#039;");
+
+    const formatDate = iso => new Intl.DateTimeFormat("fr-FR", {
+      dateStyle:"long", timeStyle:"short"
+    }).format(new Date(iso));
+
+    const remaining = article =>
+      FEATURED_DURATION - (Date.now() - new Date(article.publishedAt).getTime());
+
+    const isFeatured = article => {
+      const elapsed = Date.now() - new Date(article.publishedAt).getTime();
+      return elapsed >= 0 && elapsed < FEATURED_DURATION;
+    };
+
+    const countdownText = ms => {
+      const secondsTotal = Math.max(0, Math.floor(ms / 1000));
+      const h = Math.floor(secondsTotal / 3600);
+      const m = Math.floor((secondsTotal % 3600) / 60);
+      const s = secondsTotal % 60;
+      return `${String(h).padStart(2,"0")} h ${String(m).padStart(2,"0")} min ${String(s).padStart(2,"0")} s`;
+    };
+
+    const matches = article => {
+      if (!searchValue) return true;
+      return [
+        article.title, article.summary, article.categoryName, article.number
+      ].join(" ").toLowerCase().includes(searchValue);
+    };
+
+    const openButton = article => `
+      <a class="read-button" href="#article-${esc(article.id)}">
+        Lire l’article →
+      </a>
+    `;
+
+    const articleCard = article => `
+      <article class="article-card" style="--category-color:${article.color};">
+        <a class="article-visual" href="#article-${esc(article.id)}">
+          <span class="article-number">${esc(article.number)}</span>
+          <span class="article-visual-label">${esc(article.categoryName)}</span>
+        </a>
+        <div class="article-content">
+          <p class="article-category">${esc(article.categoryName)}</p>
+          <h3 class="article-title">
+            <a href="#article-${esc(article.id)}">${esc(article.title)}</a>
+          </h3>
+          <p class="article-summary">${esc(article.summary)}</p>
+          <time class="article-date" datetime="${esc(article.publishedAt)}">
+            Publié le ${esc(formatDate(article.publishedAt))}
+          </time>
+          ${openButton(article)}
+        </div>
+      </article>
+    `;
+
+    const separator = `
+      <div class="article-separator"><span></span><span></span><span></span></div>
+    `;
+
+    function renderSections() {
+      document.querySelectorAll("[data-category]").forEach(container => {
+        const category = container.dataset.category;
+        const list = ARTICLES
+          .filter(a => a.category === category)
+          .filter(matches)
+          .sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+
+        const count = document.querySelector(`[data-count="${category}"]`);
+        count.textContent = `${list.length} ${list.length > 1 ? "articles" : "article"}`;
+
+        container.innerHTML = list.length
+          ? list.map(articleCard).join(separator)
+          : `<div class="empty-section">Aucun article publié dans cette rubrique pour le moment.</div>`;
+      });
+    }
+
+    function renderFeatured() {
+      const list = ARTICLES
+        .filter(matches)
+        .filter(isFeatured)
+        .sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+
+      if (!list.length) {
+        featuredSection.hidden = true;
+        featuredContainer.innerHTML = "";
+        return;
+      }
+
+      featuredSection.hidden = false;
+      featuredContainer.innerHTML = list.map(article => `
+        <article class="featured-card">
+          <a class="featured-visual" href="#article-${esc(article.id)}">
+            <span class="live-badge">À la une</span>
+            <span class="countdown" data-countdown="${esc(article.id)}">
+              ${countdownText(remaining(article))}
+            </span>
+            <strong>${esc(article.title)}</strong>
+          </a>
+          <div class="featured-body" style="--category-color:${article.color};">
+            <p class="featured-category">${esc(article.number)} • ${esc(article.categoryName)}</p>
+            <h3>${esc(article.title)}</h3>
+            <p>${esc(article.summary)}</p>
+            <p class="article-date">Publié le ${esc(formatDate(article.publishedAt))}</p>
+            ${openButton(article)}
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function updateCountdowns() {
+      const featuredNow = ARTICLES.filter(matches).filter(isFeatured);
+      const shown = [...document.querySelectorAll("[data-countdown]")];
+
+      if (featuredNow.length !== shown.length) {
+        renderFeatured();
+        return;
+      }
+
+      shown.forEach(node => {
+        const article = ARTICLES.find(a => a.id === node.dataset.countdown);
+        if (article) node.textContent = countdownText(remaining(article));
+      });
+    }
+
+    function showArticle(id) {
+      const article = ARTICLES.find(a => a.id === id);
+      if (!article) return showHome();
+
+      homeView.hidden = true;
+      readerView.hidden = false;
+      readerView.querySelector(".reader-card").style.setProperty("--reader-color", article.color);
+      document.getElementById("reader-kicker").textContent =
+        `${article.number} • ${article.categoryName}`;
+      document.getElementById("reader-title").textContent = article.title;
+      document.getElementById("reader-deck").textContent = article.summary;
+      document.getElementById("reader-date").textContent =
+        `Publié le ${formatDate(article.publishedAt)} · MEDIA FREE DJIBOUTI`;
+      document.getElementById("reader-body").innerHTML = article.body;
+      document.getElementById("reader-back").href = `#${article.category}`;
+      window.scrollTo({top:0,behavior:"instant"});
+      document.title = `${article.title} | MEDIA FREE DJIBOUTI`;
+    }
+
+    function showHome() {
+      readerView.hidden = true;
+      homeView.hidden = false;
+      document.title = "MEDIA FREE DJIBOUTI — L’Œil du peuple";
+    }
+
+    function route() {
+      const hash = decodeURIComponent(location.hash);
+      if (hash.startsWith("#article-")) {
+        showArticle(hash.slice("#article-".length));
+      } else {
+        showHome();
+        if (hash && hash !== "#accueil") {
+          setTimeout(() => {
+            const target = document.querySelector(hash);
+            if (target) target.scrollIntoView();
+          }, 0);
+        }
+      }
+    }
+
+    searchInput.addEventListener("input", () => {
+      searchValue = searchInput.value.trim().toLowerCase();
+      renderSections();
+      renderFeatured();
+    });
+
+    renderSections();
+    renderFeatured();
+    route();
+
+    window.addEventListener("hashchange", route);
+    window.setInterval(updateCountdowns, 1000);
+  </script>
+</body>
+</html>
