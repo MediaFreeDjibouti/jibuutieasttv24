@@ -70,7 +70,12 @@
 
     <p>
       Dans cette rencontre à élimination directe, les Diables Rouges
-      ne disposeront d’aucune marge d’erreur.
+      ne disposeront d’aucune marge d’erreur. 
+      Tous les regards seront tournés vers le Lumen Field de Seattle, où les
+  deux sélections tenteront de décrocher leur qualification pour le tour
+  suivant. La Belgique devra livrer une prestation complète, maîtrisée et
+  engagée pour espérer franchir cet obstacle et continuer à défendre ses
+  ambitions dans ce Mondial 2026.
     </p>
   `
 },
