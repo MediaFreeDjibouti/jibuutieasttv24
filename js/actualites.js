@@ -14,9 +14,8 @@
   color: "#b5122b",
   lang: "fr",
 
-  image: "images/diables-rouges-senegal.png",
-
-  title: "Mondial 2026 : les Diables Rouges au complet avant le Sénégal",
+ image: "images/diables-rouges-senegal.png",
+ title: "Mondial 2026 : les Diables Rouges au complet avant le Sénégal",
 
   summary:
     "Les Diables Rouges ont effectué leur dernière séance d’entraînement avant leur rencontre face au Sénégal.",
@@ -161,10 +160,20 @@
 
     const articleCard = article => `
       <article class="article-card" style="--category-color:${article.color};">
-        <a class="article-visual" href="#article-${esc(article.id)}">
-          <span class="article-number">${esc(article.number)}</span>
-          <span class="article-visual-label">${esc(article.categoryName)}</span>
-        </a>
+       
+<a class="article-visual" href="#article-${esc(article.id)}">
+
+${article.image
+  ? `<img
+       src="${esc(article.image)}"
+       alt="${esc(article.title)}"
+       class="article-card-image"
+     >`
+  : `
+     <span class="article-number">${esc(article.number)}</span>
+     <span class="article-visual-label">${esc(article.categoryName)}</span>
+    `
+}
         <div class="article-content">
           <p class="article-category">${esc(article.categoryName)}</p>
           <h3 class="article-title">
