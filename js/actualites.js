@@ -21,9 +21,7 @@
     "Les 26 joueurs belges ont participé à leur dernière séance d’entraînement avant la rencontre face au Sénégal à Seattle.",
 
   body: `
-    <p class="article-note">
-      Image d’illustration générée par intelligence artificielle.
-    </p>
+    
 
     <p>
       En guise de répétition générale, les Diables Rouges se sont
