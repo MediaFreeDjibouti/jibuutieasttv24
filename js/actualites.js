@@ -294,9 +294,9 @@
         <article class="featured-card">
           <a class="featured-visual" href="#article-${esc(article.id)}">
             <span class="live-badge">À la une</span>
-            <span class="countdown" data-countdown="${esc(article.id)}">
-              ${countdownText(remaining(article))}
-            </span>
+           <span class="countdown">
+         Publié à ${esc(formatDate(article.publishedAt).split(" à ")[1])}
+        </span>
             <strong>${esc(article.title)}</strong>
           </a>
           <div class="featured-body" style="--category-color:${article.color};">
