@@ -95,13 +95,13 @@
   title: "De violents orages frappent la Belgique et causent d’importants dégâts",
 
   summary:
-    "La Belgique a été frappée par de violents orages accompagnés de pluies torrentielles, de nombreux éclairs, de grêle et de puissantes rafales de vent.",
+    "La Belgique a été frappée par de violents orages accompagnés de pluies torrentielles, de nombreux éclairs et de puissantes rafales de vent.",
 
   body: `
     <p>
       La Belgique a été frappée, dans la nuit du samedi 27 au dimanche
       28 juin 2026, par de violents orages accompagnés de pluies
-      torrentielles, de nombreux éclairs, de grêle et de puissantes
+      torrentielles, de nombreux éclairs et de puissantes
       rafales de vent.
     </p>
 
