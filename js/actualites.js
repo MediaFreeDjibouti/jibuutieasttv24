@@ -1,4 +1,3 @@
-
  "use strict";
 
     const ARTICLES = [
@@ -627,14 +626,20 @@ categoryName: "Info spéciale",
   return `${jour} à ${heure}`;
 };
 
-   const countdownText = ms => {
-  const totalMinutes = Math.max(0, Math.floor(ms / 60000));
+    // Durée d’affichage d’un article dans « À la une » : 24 heures
+    const remaining = article => {
+      const publicationTime = new Date(article.publishedAt).getTime();
+      const elapsed = Date.now() - publicationTime;
 
-  const h = Math.floor(totalMinutes / 60);
-  const m = totalMinutes % 60;
+      return Math.max(0, FEATURED_DURATION - elapsed);
+    };
 
-  return `${String(h).padStart(2, "0")}H${String(m).padStart(2, "0")}`;
-};
+    const isFeatured = article => {
+      const publicationTime = new Date(article.publishedAt).getTime();
+      const elapsed = Date.now() - publicationTime;
+
+      return elapsed >= 0 && elapsed < FEATURED_DURATION;
+    };
 
     const countdownText = ms => {
       const secondsTotal = Math.max(0, Math.floor(ms / 1000));
