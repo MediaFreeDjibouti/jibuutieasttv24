@@ -1,5 +1,5 @@
- 
-    "use strict";
+
+ "use strict";
 
     const ARTICLES = [
 {
@@ -173,7 +173,7 @@
       .replaceAll('"',"&quot;")
       .replaceAll("'","&#039;");
 
-const formatDate = iso => {
+    const formatDate = iso => {
   const date = new Date(iso);
 
   const jour = new Intl.DateTimeFormat("fr-BE", {
@@ -193,15 +193,15 @@ const formatDate = iso => {
   return `${jour} à ${heure}`;
 };
 
-const remaining = article =>
+    const remaining = article =>
   FEATURED_DURATION - (Date.now() - new Date(article.publishedAt).getTime());
 
-const isFeatured = article => {
+    const isFeatured = article => {
   const elapsed = Date.now() - new Date(article.publishedAt).getTime();
   return elapsed >= 0 && elapsed < FEATURED_DURATION;
 };
 
-      const countdownText = ms => {
+    const countdownText = ms => {
       const secondsTotal = Math.max(0, Math.floor(ms / 1000));
       const h = Math.floor(secondsTotal / 3600);
       const m = Math.floor((secondsTotal % 3600) / 60);
@@ -224,22 +224,20 @@ const isFeatured = article => {
 
     const articleCard = article => `
       <article class="article-card" style="--category-color:${article.color};">
-       
-<a class="article-visual" href="#article-${esc(article.id)}">
+        <a class="article-visual" href="#article-${esc(article.id)}">
+          ${article.image
+            ? `<img
+                 src="${esc(article.image)}"
+                 alt="${esc(article.title)}"
+                 class="article-card-image"
+               >`
+            : `
+                <span class="article-number">${esc(article.number)}</span>
+                <span class="article-visual-label">${esc(article.categoryName)}</span>
+              `
+          }
+        </a>
 
-${article.image
-  ? `<img
-       src="${esc(article.image)}"
-       alt="${esc(article.title)}"
-       class="article-card-image"
-     >`
-  : `
-     <span class="article-number">${esc(article.number)}</span>
-     <span class="article-visual-label">${esc(article.categoryName)}</span>
-    `
-}
-      </a> 
-       
         <div class="article-content">
           <p class="article-category">${esc(article.categoryName)}</p>
           <h3 class="article-title">
@@ -267,7 +265,9 @@ ${article.image
           .sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 
         const count = document.querySelector(`[data-count="${category}"]`);
-        count.textContent = `${list.length} ${list.length > 1 ? "articles" : "article"}`;
+        if (count) {
+          count.textContent = `${list.length} ${list.length > 1 ? "articles" : "article"}`;
+        }
 
         container.innerHTML = list.length
           ? list.map(articleCard).join(separator)
@@ -280,6 +280,8 @@ ${article.image
         .filter(matches)
         .filter(isFeatured)
         .sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+
+      if (!featuredSection || !featuredContainer) return;
 
       if (!list.length) {
         featuredSection.hidden = true;
@@ -336,9 +338,17 @@ ${article.image
       document.getElementById("reader-deck").textContent = article.summary;
       document.getElementById("reader-date").textContent =
         `Publié le ${formatDate(article.publishedAt)} · MEDIA FREE DJIBOUTI`;
-      document.getElementById("reader-body").innerHTML = article.body;
+      const articleImage = article.image
+        ? `<img
+             src="${esc(article.image)}"
+             alt="${esc(article.title)}"
+             class="reader-image"
+           >`
+        : "";
+
+      document.getElementById("reader-body").innerHTML = articleImage + article.body;
       document.getElementById("reader-back").href = `#${article.category}`;
-      window.scrollTo({top:0,behavior:"instant"});
+      window.scrollTo({ top: 0, behavior: "auto" });
       document.title = `${article.title} | MEDIA FREE DJIBOUTI`;
     }
 
@@ -363,11 +373,13 @@ ${article.image
       }
     }
 
-    searchInput.addEventListener("input", () => {
-      searchValue = searchInput.value.trim().toLowerCase();
-      renderSections();
-      renderFeatured();
-    });
+    if (searchInput) {
+      searchInput.addEventListener("input", () => {
+        searchValue = searchInput.value.trim().toLowerCase();
+        renderSections();
+        renderFeatured();
+      });
+    }
 
     renderSections();
     renderFeatured();
@@ -375,4 +387,3 @@ ${article.image
 
     window.addEventListener("hashchange", route);
     window.setInterval(updateCountdowns, 1000);
-  
