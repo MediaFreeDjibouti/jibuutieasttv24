@@ -627,12 +627,13 @@ categoryName: "Info spéciale",
   return `${jour} à ${heure}`;
 };
 
-    const remaining = article =>
-  FEATURED_DURATION - (Date.now() - new Date(article.publishedAt).getTime());
+   const countdownText = ms => {
+  const totalMinutes = Math.max(0, Math.floor(ms / 60000));
 
-    const isFeatured = article => {
-  const elapsed = Date.now() - new Date(article.publishedAt).getTime();
-  return elapsed >= 0 && elapsed < FEATURED_DURATION;
+  const h = Math.floor(totalMinutes / 60);
+  const m = totalMinutes % 60;
+
+  return `${String(h).padStart(2, "0")}H${String(m).padStart(2, "0")}`;
 };
 
     const countdownText = ms => {
