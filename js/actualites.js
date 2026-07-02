@@ -492,6 +492,144 @@ categoryName: "Info spéciale",
     </div>
   `
 },
+     
+{
+  id: "Espagne-autriche-victoire-finale-3-0",
+  number: "ART 5",
+
+  category: "sports",
+  categoryName: "Sports",
+
+  publishedAt: "2026-07-02T23:07",
+
+  color: "#c8102e",
+  lang: "fr",
+  image: "",
+
+  title:
+    "Espagne–Autriche : la Roja s’impose 3-0 après une rencontre largement maîtrisée",
+
+  summary:
+    "L’Espagne s’est imposée 3-0 face à l’Autriche après avoir dominé la rencontre et conservé la majorité de la possession. Pedro Porro a inscrit le deuxième but à la 65ᵉ minute, avant que Beñat Turrientes ne porte le score à 3-0 à la 88ᵉ minute.",
+
+  body: `
+    <p>
+      L’Espagne s’est imposée sur le score de
+      <strong>3-0 face à l’Autriche</strong> après une rencontre largement
+      maîtrisée. Déjà en tête à la mi-temps, la Roja a poursuivi sa domination
+      durant la seconde période et a inscrit deux buts supplémentaires.
+    </p>
+
+    <p>
+      Grâce à sa maîtrise technique, à son pressing et à une possession
+      largement supérieure, la sélection espagnole a contrôlé le rythme de
+      la rencontre jusqu’au coup de sifflet final.
+    </p>
+
+    <h2>L’Espagne double son avantage à la 65ᵉ minute</h2>
+
+    <p>
+      À la <strong>65ᵉ minute</strong>, le numéro 10 espagnol,
+      <strong>Dani Olmo</strong>, a tenté une frappe directe.
+      Un défenseur autrichien est parvenu à intercepter le ballon du pied,
+      mais l’Autriche n’a pas réussi à en conserver le contrôle.
+    </p>
+
+    <p>
+      Le ballon est alors revenu dans les pieds du numéro 24 espagnol,
+      <strong>Marc Cucurella</strong>. Celui-ci a transmis le ballon à
+      <strong>Álex Baena</strong>, numéro 15, positionné sur le côté gauche.
+    </p>
+
+    <p>
+      Álex Baena a ensuite adressé un centre précis dans la surface de
+      réparation autrichienne.
+    </p>
+
+    <p>
+      Bien placé devant le but, le défenseur espagnol
+      <strong>Pedro Porro</strong>, numéro 12, a repris le ballon d’un
+      puissant coup de tête et l’a envoyé au fond des filets.
+    </p>
+
+    <p>
+      Grâce à cette action collective, l’Espagne a inscrit son deuxième but
+      et porté le score à <strong>2-0 face à l’Autriche</strong>.
+    </p>
+
+    <h2>Stefan Posch reçoit un carton jaune</h2>
+
+    <p>
+      À la <strong>82ᵉ minute</strong>, le défenseur autrichien
+      <strong>Stefan Posch</strong>, numéro 5, a reçu un carton jaune
+      après avoir commis une faute.
+    </p>
+
+    <p>
+      Cette sanction est intervenue alors que l’Autriche rencontrait toujours
+      de grandes difficultés pour reprendre le contrôle du ballon et contenir
+      les offensives espagnoles.
+    </p>
+
+    <h2>Une nouvelle tentative de Lamine Yamal</h2>
+
+    <p>
+      Deux minutes plus tard, à la <strong>84ᵉ minute</strong>,
+      <strong>Lamine Yamal</strong> a tenté d’inscrire un nouveau but.
+    </p>
+
+    <p>
+      Sa tentative a toutefois été interceptée par un défenseur autrichien,
+      empêchant momentanément l’Espagne d’aggraver le score.
+    </p>
+
+    <h2>Beñat Turrientes inscrit le troisième but</h2>
+
+    <p>
+      À la <strong>88ᵉ minute</strong>, le milieu de terrain espagnol a
+      transmis le ballon au numéro 24, <strong>Marc Cucurella</strong>.
+    </p>
+
+    <p>
+      Cucurella a progressé sur le côté gauche avant d’adresser une passe
+      décisive vers le centre de la surface de réparation.
+    </p>
+
+    <p>
+      Le numéro 21 espagnol, <strong>Beñat Turrientes</strong>, a récupéré
+      le ballon avant de déclencher une frappe vers le côté gauche du filet.
+    </p>
+
+    <p>
+      Sa tentative a terminé au fond des cages, permettant à l’Espagne
+      d’inscrire son troisième but et de porter le score à
+      <strong>3-0 face à l’Autriche</strong>.
+    </p>
+
+    <h2>Une victoire largement méritée pour l’Espagne</h2>
+
+    <p>
+      La rencontre s’est finalement terminée sur une victoire nette de
+      l’Espagne. La Roja a conservé la majorité de la possession du ballon
+      durant la deuxième période et a continué à imposer son jeu jusqu’au
+      coup de sifflet final.
+    </p>
+
+    <p>
+      Grâce à son efficacité offensive, à son organisation collective et à
+      sa maîtrise du ballon, l’Espagne a logiquement remporté cette rencontre
+      sur le score de <strong>3-0</strong>.
+    </p>
+
+    <div class="article-note">
+      <strong>Score final :</strong> Espagne 3-0 Autriche.<br>
+      <strong>Score à la mi-temps :</strong> Espagne 1-0 Autriche.<br>
+      <strong>Catégorie :</strong> Sports — ART 5.<br>
+      <strong>Couleur :</strong> rouge Sports.
+    </div>
+  `
+},
+     
 {
   id: "espagne-autriche-premiere-mi-temps",
   number: "ART 4",
