@@ -248,7 +248,7 @@ main {
   color: #111827;
 }
 
-/* Chronomètre : format attendu 22H40M00S */
+/* Chronomètre : format attendu 24H00M00S */
 .countdown {
   right: 15px;
   min-width: 112px;
