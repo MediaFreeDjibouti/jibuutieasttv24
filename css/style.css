@@ -2,6 +2,7 @@
   --navy: #101827;
   --navy-light: #1b2940;
   --red: #c8102e;
+  --featured-orange: #e67e00;
   --paper: #fff;
   --background: #eef1f5;
   --text: #202939;
@@ -166,7 +167,7 @@ main {
   padding: 30px;
   background: #fff;
   border: 1px solid var(--border);
-  border-top: 7px solid var(--red);
+  border-top: 7px solid var(--featured-orange);
   border-radius: 16px;
   box-shadow: var(--shadow);
 }
@@ -181,7 +182,7 @@ main {
 
 .featured-heading h2 {
   margin: 0;
-  color: var(--red);
+  color: var(--featured-orange);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, 4vw, 3rem);
 }
@@ -217,7 +218,7 @@ main {
   display: flex;
   align-items: end;
   padding: 22px;
-  background: linear-gradient(135deg, #101827, #c8102e);
+  background: linear-gradient(135deg, #101827, var(--featured-orange));
   color: #fff;
   text-decoration: none;
 }
@@ -270,7 +271,7 @@ main {
 
 .featured-category {
   margin: 0 0 8px;
-  color: var(--red);
+  color: var(--featured-orange);
   font-size: 0.75rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -281,6 +282,11 @@ main {
   color: var(--navy);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.55rem;
+}
+
+.featured-card .read-button {
+  background: var(--featured-orange);
+  color: #fff;
 }
 
 .news-section {
@@ -636,4 +642,3 @@ main {
     max-width: 100%;
   }
 }
-
