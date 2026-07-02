@@ -1,4 +1,5 @@
- "use strict";
+ 
+   "use strict";
 
     const ARTICLES = [
 {
@@ -9,10 +10,11 @@
   categoryName: "Info spéciale",
 
   publishedAt: "2026-07-02T02:46:00+02:00",
+  featuredAt: "2026-07-02T02:46:00+02:00",
 
   color: "#ad1457",
   lang: "fr",
-  image: "Images/mondial-2026-resultats.png",
+  image: "",
 
   title: "Mondial 2026 : le Mexique, l’Angleterre et la Belgique qualifiés pour les huitièmes",
 
@@ -162,6 +164,7 @@ category: "info-speciale",
 categoryName: "Info spéciale",
 
   publishedAt: "2026-07-01T03:40:00+02:00",
+  featuredAt: "2026-07-01T03:40:00+02:00",
 
   color: "#ad1457",
   lang: "fr",
@@ -492,17 +495,18 @@ categoryName: "Info spéciale",
     </div>
   `
 },
-     
+
 {
-  id: "Espagne-autriche-victoire-finale-3-0",
+  id: "espagne-autriche-victoire-finale-3-0",
   number: "ART 5",
 
   category: "sports",
   categoryName: "Sports",
 
-  publishedAt: "2026-07-02T23:07:00+02:00",
+  publishedAt: "2026-07-02T23:03:00+02:00",
+  featuredAt: "2026-07-02T23:03:00+02:00",
 
-  color: "#c8102e",
+  color: "#d97706",
   lang: "fr",
   image: "",
 
@@ -510,7 +514,7 @@ categoryName: "Info spéciale",
     "Espagne–Autriche : la Roja s’impose 3-0 après une rencontre largement maîtrisée",
 
   summary:
-    "L’Espagne s’est imposée 3-0 face à l’Autriche après avoir dominé la rencontre et conservé la majorité de la possession. Pedro Porro a inscrit le deuxième but à la 65ᵉ minute, avant que Beñat Turrientes ne porte le score à 3-0 à la 88ᵉ minute.",
+    "L’Espagne s’est imposée 3-0 face à l’Autriche après avoir dominé la rencontre. Pedro Porro a inscrit le deuxième but à la 65ᵉ minute, avant que Beñat Turrientes ne porte le score à 3-0 à la 88ᵉ minute.",
 
   body: `
     <p>
@@ -530,106 +534,72 @@ categoryName: "Info spéciale",
 
     <p>
       À la <strong>65ᵉ minute</strong>, le numéro 10 espagnol,
-      <strong>Dani Olmo</strong>, a tenté une frappe directe.
-      Un défenseur autrichien est parvenu à intercepter le ballon du pied,
-      mais l’Autriche n’a pas réussi à en conserver le contrôle.
+      <strong>Dani Olmo</strong>, a tenté une frappe directe. Un défenseur
+      autrichien est parvenu à intercepter le ballon du pied, mais l’Autriche
+      n’a pas réussi à en conserver le contrôle.
     </p>
 
     <p>
       Le ballon est alors revenu dans les pieds du numéro 24 espagnol,
-      <strong>Marc Cucurella</strong>. Celui-ci a transmis le ballon à
+      <strong>Marc Cucurella</strong>, qui a transmis à
       <strong>Álex Baena</strong>, numéro 15, positionné sur le côté gauche.
-    </p>
-
-    <p>
-      Álex Baena a ensuite adressé un centre précis dans la surface de
-      réparation autrichienne.
+      Baena a ensuite adressé un centre précis dans la surface de réparation.
     </p>
 
     <p>
       Bien placé devant le but, le défenseur espagnol
-      <strong>Pedro Porro</strong>, numéro 12, a repris le ballon d’un
-      puissant coup de tête et l’a envoyé au fond des filets.
-    </p>
-
-    <p>
-      Grâce à cette action collective, l’Espagne a inscrit son deuxième but
-      et porté le score à <strong>2-0 face à l’Autriche</strong>.
+      <strong>Pedro Porro</strong>, numéro 12, a repris le ballon d’un puissant
+      coup de tête et l’a envoyé au fond des filets. L’Espagne a ainsi porté
+      le score à <strong>2-0</strong>.
     </p>
 
     <h2>Stefan Posch reçoit un carton jaune</h2>
 
     <p>
       À la <strong>82ᵉ minute</strong>, le défenseur autrichien
-      <strong>Stefan Posch</strong>, numéro 5, a reçu un carton jaune
-      après avoir commis une faute.
+      <strong>Stefan Posch</strong>, numéro 5, a reçu un carton jaune après
+      avoir commis une faute.
     </p>
-
-    <p>
-      Cette sanction est intervenue alors que l’Autriche rencontrait toujours
-      de grandes difficultés pour reprendre le contrôle du ballon et contenir
-      les offensives espagnoles.
-    </p>
-
-    <h2>Une nouvelle tentative de Lamine Yamal</h2>
 
     <p>
       Deux minutes plus tard, à la <strong>84ᵉ minute</strong>,
-      <strong>Lamine Yamal</strong> a tenté d’inscrire un nouveau but.
-    </p>
-
-    <p>
-      Sa tentative a toutefois été interceptée par un défenseur autrichien,
-      empêchant momentanément l’Espagne d’aggraver le score.
+      <strong>Lamine Yamal</strong> a tenté d’inscrire un nouveau but, mais
+      sa frappe a été interceptée par un défenseur autrichien.
     </p>
 
     <h2>Beñat Turrientes inscrit le troisième but</h2>
 
     <p>
       À la <strong>88ᵉ minute</strong>, le milieu de terrain espagnol a
-      transmis le ballon au numéro 24, <strong>Marc Cucurella</strong>.
-    </p>
-
-    <p>
-      Cucurella a progressé sur le côté gauche avant d’adresser une passe
-      décisive vers le centre de la surface de réparation.
+      transmis le ballon à <strong>Marc Cucurella</strong>. Celui-ci a
+      progressé sur le côté gauche avant d’adresser une passe décisive vers
+      le centre de la surface de réparation.
     </p>
 
     <p>
       Le numéro 21 espagnol, <strong>Beñat Turrientes</strong>, a récupéré
       le ballon avant de déclencher une frappe vers le côté gauche du filet.
+      Sa tentative a terminé au fond des cages, portant le score à
+      <strong>3-0</strong>.
     </p>
 
-    <p>
-      Sa tentative a terminé au fond des cages, permettant à l’Espagne
-      d’inscrire son troisième but et de porter le score à
-      <strong>3-0 face à l’Autriche</strong>.
-    </p>
-
-    <h2>Une victoire largement méritée pour l’Espagne</h2>
+    <h2>Une victoire largement méritée</h2>
 
     <p>
-      La rencontre s’est finalement terminée sur une victoire nette de
-      l’Espagne. La Roja a conservé la majorité de la possession du ballon
-      durant la deuxième période et a continué à imposer son jeu jusqu’au
-      coup de sifflet final.
-    </p>
-
-    <p>
-      Grâce à son efficacité offensive, à son organisation collective et à
-      sa maîtrise du ballon, l’Espagne a logiquement remporté cette rencontre
-      sur le score de <strong>3-0</strong>.
+      La rencontre s’est terminée sur une victoire nette de l’Espagne.
+      La Roja a conservé la majorité de la possession du ballon durant la
+      deuxième période et a continué à imposer son jeu jusqu’au coup de
+      sifflet final.
     </p>
 
     <div class="article-note">
       <strong>Score final :</strong> Espagne 3-0 Autriche.<br>
       <strong>Score à la mi-temps :</strong> Espagne 1-0 Autriche.<br>
-      <strong>Catégorie :</strong> Sports — ART 5.<br>
-      <strong>Couleur :</strong> rouge Sports.
+      <strong>Catégorie :</strong> Sports — ART 5.
     </div>
   `
 },
-     
+
 {
   id: "espagne-autriche-premiere-mi-temps",
   number: "ART 4",
@@ -638,8 +608,9 @@ categoryName: "Info spéciale",
   categoryName: "Sports",
 
   publishedAt: "2026-07-02T21:50:00+02:00",
+  featuredAt: "2026-07-02T21:50:00+02:00",
 
-  color: "#c8102e",
+  color: "#d97706",
   lang: "fr",
   image: "",
 
@@ -647,7 +618,7 @@ categoryName: "Info spéciale",
     "Espagne–Autriche : la Roja domine et mène 1-0 à la mi-temps",
 
   summary:
-    "L’Espagne mène 1-0 face à l’Autriche à la pause après avoir largement dominé la première période. Avec environ 70 % de possession, la Roja a multiplié les occasions avant d’ouvrir le score à la 35ᵉ minute.",
+    "L’Espagne mène 1-0 face à l’Autriche à la pause après avoir dominé la première période. Avec environ 70 % de possession, la Roja a multiplié les occasions avant d’ouvrir le score à la 35ᵉ minute.",
 
   body: `
     <p>
@@ -662,119 +633,77 @@ categoryName: "Info spéciale",
       s’est terminée sur le score de <strong>1-0 en faveur de l’Espagne</strong>.
     </p>
 
-    <h2>Une domination espagnole dès les premières minutes</h2>
+    <h2>Une domination espagnole dès le début</h2>
 
     <p>
       Dès la <strong>5ᵉ minute</strong>, Yamal a tenté de surprendre le
-      gardien autrichien, mais sa première occasion n’a pas abouti.
-    </p>
-
-    <p>
+      gardien autrichien, mais cette première occasion n’a pas abouti.
       L’Espagne a ensuite conservé le ballon pendant plusieurs minutes,
-      imposant progressivement son rythme, son pressing et son organisation
-      collective.
+      imposant progressivement son rythme et son organisation collective.
     </p>
 
     <p>
       À <strong>16 minutes et 55 secondes</strong>, le numéro 9 espagnol
-      a adressé un centre précis en direction du numéro 11. Celui-ci a
-      essayé de reprendre le ballon de la tête, mais l’a manqué de quelques
-      centimètres.
+      a adressé un centre précis en direction du numéro 11. Celui-ci a tenté
+      de reprendre le ballon de la tête, mais l’a manqué de quelques centimètres.
     </p>
 
-    <h2>Plusieurs tentatives sans réussite</h2>
-
     <p>
-      À la <strong>18ᵉ minute</strong>, les Espagnols ont tenté une frappe
+      À la <strong>18ᵉ minute</strong>, les Espagnols ont essayé une frappe
       directe, sans parvenir à trouver le cadre.
     </p>
 
     <p>
-      Trois minutes plus tard, le numéro 21 espagnol a essayé de dribbler
-      dans la surface de réparation autrichienne.
+      À la <strong>21ᵉ minute</strong>, le numéro 21 espagnol a essayé de
+      dribbler dans la surface de réparation. Gêné par un défenseur autrichien,
+      il a perdu le contrôle du ballon, finalement récupéré par le gardien.
+    </p>
+
+    <h2>Un but espagnol annulé</h2>
+
+    <p>
+      L’Espagne continuait de dominer avec environ
+      <strong>70 % de possession du ballon</strong>.
     </p>
 
     <p>
-      Gêné par l’intervention d’un défenseur, il a perdu le contrôle du
-      ballon, finalement récupéré par le gardien adverse.
+      À la <strong>28ᵉ minute</strong>, un corner espagnol a provoqué une
+      nouvelle situation dangereuse. Le ballon a terminé au fond des filets,
+      mais l’arbitre a immédiatement annulé le but.
     </p>
+
+    <h2>L’ouverture du score à la 35ᵉ minute</h2>
 
     <p>
-      L’Espagne continuait néanmoins de dominer la rencontre, avec environ
-      <strong>70 % de possession du ballon</strong>. L’Autriche éprouvait
-      de grandes difficultés à récupérer durablement le ballon et à
-      construire ses propres offensives.
+      La domination espagnole a finalement été récompensée à la
+      <strong>35ᵉ minute</strong>. Le numéro 24 a effectué une excellente
+      passe depuis le côté gauche en direction du numéro 21, qui a envoyé
+      le ballon au fond des filets.
     </p>
-
-    <h2>Un premier but annulé</h2>
-
-    <p>
-      À la <strong>28ᵉ minute</strong>, un corner espagnol a créé une
-      nouvelle situation dangereuse devant le but autrichien.
-    </p>
-
-    <p>
-      Le ballon a terminé au fond des filets, mais l’arbitre a immédiatement
-      annulé le but. L’Espagne a donc dû poursuivre ses efforts pour
-      concrétiser sa domination.
-    </p>
-
-    <h2>L’Espagne ouvre finalement le score</h2>
-
-    <p>
-      La domination espagnole a été récompensée à la
-      <strong>35ᵉ minute</strong>.
-    </p>
-
-    <p>
-      Le numéro 24 a effectué une excellente passe depuis le côté gauche
-      en direction du numéro 21. Bien placé devant le but, ce dernier a
-      conclu l’action et envoyé le ballon au fond des filets.
-    </p>
-
-    <p>
-      L’Espagne a ainsi ouvert le score après plusieurs tentatives et une
-      longue période de possession.
-    </p>
-
-    <h2>Un coup franc sur le poteau</h2>
 
     <p>
       À la <strong>39ᵉ minute</strong>, une faute a offert un coup franc
-      dangereux à la sélection espagnole.
-    </p>
-
-    <p>
-      Le tireur a tenté une frappe directe qui a heurté le poteau avant
+      dangereux aux Espagnols. La frappe directe a heurté le poteau avant
       de revenir dans la surface. Yamal a essayé de reprendre le ballon,
       mais sa tentative n’a pas permis d’inscrire un deuxième but.
     </p>
 
-    <h2>L’Espagne mène à la pause</h2>
+    <h2>L’Espagne mène à la mi-temps</h2>
 
     <p>
       La première mi-temps s’est terminée sur le score de
-      <strong>1-0 pour l’Espagne</strong>.
-    </p>
-
-    <p>
-      La Roja mène logiquement grâce à sa maîtrise du ballon, à son
-      pressing et à sa capacité à multiplier les occasions offensives.
-    </p>
-
-    <p>
-      L’Autriche devra montrer un visage plus offensif en seconde période
-      pour tenter de revenir dans la rencontre, tandis que l’Espagne
-      cherchera à conserver son contrôle du jeu et à inscrire un deuxième but.
+      <strong>1-0 pour l’Espagne</strong>. La Roja mène logiquement grâce
+      à sa maîtrise du ballon, à son pressing et à ses nombreuses occasions.
     </p>
 
     <div class="article-note">
       <strong>Score à la mi-temps :</strong> Espagne 1-0 Autriche.<br>
       <strong>Possession espagnole :</strong> environ 70 %.<br>
-      <strong>Situation :</strong> l’Espagne domine la rencontre.
+      <strong>Catégorie :</strong> Sports — ART 4.
     </div>
   `
 },
+
 {
   id: "belgique-senegal-victoire-prolongation",
   number: "ART 3",
@@ -783,8 +712,9 @@ categoryName: "Info spéciale",
   categoryName: "Sports",
 
   publishedAt: "2026-07-02T00:51:00+02:00",
+  featuredAt: "2026-07-02T00:51:00+02:00",
 
-  color: "#c8102e",
+  color: "#d97706",
   lang: "fr",
   image: "",
   title: "Belgique–Sénégal : les Diables Rouges renversent le match et se qualifient après une victoire 3-2",
@@ -910,7 +840,8 @@ categoryName: "Info spéciale",
   category: "sports",
   categoryName: "Sports",
   publishedAt: "2026-07-01T22:50:00+02:00",
-  color: "#c8102e",
+  featuredAt: "2026-07-01T22:50:00+02:00",
+  color: "#d97706",
   lang: "fr",
   image: "",
   title: "Le Sénégal mène face à la Belgique après une première période maîtrisée",
@@ -1008,8 +939,9 @@ categoryName: "Info spéciale",
   categoryName: "Sports",
 
   publishedAt: "2026-07-01T00:00:00+02:00",
+  featuredAt: "2026-07-01T00:00:00+02:00",
 
-  color: "#c8102e",
+  color: "#d97706",
   lang: "fr",
   image: "images/diables-rouges-senegal.png",
 
@@ -1085,6 +1017,7 @@ categoryName: "Info spéciale",
   categoryName: "Actualités internationales",
 
   publishedAt: "2026-06-28T19:51:00+02:00",
+  featuredAt: "2026-06-28T19:51:00+02:00",
 
   color: "#1261a0",
   lang: "fr",
@@ -1157,7 +1090,7 @@ categoryName: "Info spéciale",
 
 {"id": "venezuela-seismes", "number": "ART 1", "category": "international",
  "categoryName": "Actualités internationales", 
- "publishedAt": "2026-06-28T10:30:00+02:00", 
+ "publishedAt": "2026-06-28T10:30:00+02:00", "featuredAt": "2026-06-28T10:30:00+02:00", 
  "color": "#1261a0", 
  "lang": "fr",
  "image": "",
@@ -1253,6 +1186,7 @@ body: `
   categoryName: "Politique",
 
   publishedAt: "2026-06-24T14:15:00+02:00",
+  featuredAt: "2026-06-24T14:15:00+02:00",
 
   color: "#d4a900",
   lang: "so",
@@ -1330,7 +1264,7 @@ body: `
       xaqiijiyaa ilo rasmi ah ka hor daabacaad kasta oo cusub.
     </div>
   `
-}, {"id": "kenya-quarantaine-ebola", "number": "ART 2", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T12:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Kenya : le gouvernement suspend l’ouverture d’un centre de quarantaine lié à Ebola", "summary": "Le projet installé sur la base aérienne de Laikipia suscite une vive\n          contestation. Les autorités ont annoncé l’arrêt des travaux dans\n          l’attente d’une nouvelle décision de justice.", "body": "<p>\n          Le gouvernement kényan a ordonné la suspension de l’ouverture d’un\n          centre de quarantaine construit avec le soutien des États-Unis pour\n          accueillir des personnes potentiellement exposées au virus Ebola.\n        </p>\n<p>\n          Cette décision a été annoncée par le ministre kényan de la Santé,\n          Aden Duale, lors de sa comparution devant la Haute Cour du Kenya.\n        </p>\n<h2>Arrêt immédiat des travaux</h2>\n<p>\n          Le ministre a déclaré avoir ordonné l’arrêt complet et immédiat de tous\n          les travaux de construction, de préparation du site et de mise en\n          service de l’infrastructure.\n        </p>\n<p>\n          La suspension doit rester en vigueur dans l’attente de l’examen du\n          recours déposé contre le projet et d’une nouvelle décision judiciaire.\n        </p>\n<h2>Un centre presque achevé</h2>\n<p>\n          Le centre, installé sur la base aérienne de Laikipia, devait disposer\n          de 50 lits d’isolement. Les travaux étaient présentés comme presque\n          achevés au début du mois de juin.\n        </p>\n<h2>Une inquiétude grandissante</h2>\n<p>\n          De nombreux citoyens redoutent que l’installation n’augmente le risque\n          d’introduction du virus dans le pays. Ils demandent des informations\n          précises sur les personnes susceptibles d’être accueillies, les\n          procédures de transfert et les mesures de protection prévues.\n        </p>\n<p>\n          Les habitants souhaitent également obtenir des garanties concernant la\n          gestion des déchets médicaux, les protocoles d’isolement, les capacités\n          de dépistage et les procédures prévues en cas de contamination.\n        </p>\n<h2>Une question de souveraineté et de transparence</h2>\n<p>\n          Au-delà de la question sanitaire, le projet soulève des interrogations\n          sur les accords encadrant l’infrastructure, la responsabilité de chaque\n          partie et le contrôle exercé par les autorités kényanes.\n        </p>\n<p>\n          Dans une affaire aussi sensible, la protection de la santé publique\n          suppose une communication régulière, le respect des décisions de\n          justice et un contrôle indépendant des installations.\n        </p>"}, {"id": "ebola-mobilisation-africaine", "number": "ART 1", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T09:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Ebola : une mobilisation africaine tardive face à une urgence sanitaire grandissante", "summary": "La tenue d’une réunion virtuelle consacrée à l’épidémie constitue une\n          étape utile, mais son caractère tardif soulève des interrogations sur la\n          rapidité et l’efficacité de la réponse sanitaire.", "body": "<p>\n          Plusieurs chefs d’État et de gouvernement africains ont participé à une\n          réunion virtuelle consacrée à l’évolution de l’épidémie de maladie à\n          virus Ebola et aux moyens nécessaires pour renforcer la coordination\n          régionale.\n        </p>\n<p>\n          Cette rencontre intervient plusieurs semaines après la déclaration\n          officielle de l’épidémie en République démocratique du Congo. Cette\n          chronologie alimente les interrogations sur la rapidité de la réponse\n          politique et sur les moyens effectivement mobilisés.\n        </p>\n<h2>Pourquoi avoir attendu plusieurs semaines ?</h2>\n<p>\n          Face à Ebola, chaque journée perdue peut compliquer le traçage des\n          contacts, augmenter le risque de propagation et alourdir la pression\n          exercée sur les structures sanitaires.\n        </p>\n<p>\n          Une réponse efficace exige une coordination rapide : mobilisation des\n          équipes médicales, préparation des frontières, information du public,\n          renforcement des laboratoires et mise à disposition de moyens\n          financiers et logistiques vérifiables.\n        </p>\n<h2>Des discussions, mais quelles décisions concrètes ?</h2>\n<p>\n          Les responsables ont évoqué le renforcement du dépistage, du traçage des\n          contacts, de la surveillance épidémiologique et de la coopération\n          régionale. Ces priorités sont essentielles, mais elles doivent être\n          accompagnées d’engagements chiffrés et d’un calendrier public.\n        </p>\n<p>\n          Sans précisions sur les budgets, les équipes déployées et la répartition\n          des responsabilités, une réunion diplomatique risque de ne pas répondre\n          suffisamment vite aux besoins des populations.\n        </p>\n<h2>Djibouti doit préciser son dispositif de prévention</h2>\n<p>\n          Les autorités djiboutiennes devraient expliquer publiquement les\n          procédures prévues pour contrôler les voyageurs en provenance des zones\n          touchées, les capacités de dépistage disponibles et les mesures\n          d’urgence applicables en cas de cas suspect.\n        </p>\n<p>\n          Il serait également utile de publier régulièrement des informations sur\n          les stocks de matériel de protection, les moyens financiers disponibles\n          et les capacités d’accueil des structures de santé.\n        </p>\n<h2>La transparence ne doit pas être optionnelle</h2>\n<p>\n          Lorsqu’une maladie grave menace plusieurs pays, la transparence doit\n          devenir une obligation. Les citoyens doivent pouvoir connaître les\n          engagements pris, les décisions adoptées et les actions réellement\n          mises en œuvre après les réunions officielles.\n        </p>\n<h2>Conclusion</h2>\n<p>\n          Face à Ebola, les populations africaines ont besoin d’États capables\n          d’anticiper, de prévenir, d’informer et d’agir avant que la situation ne\n          devienne incontrôlable.\n        </p>\n<p>\n          Des enquêtes scientifiques transparentes sont également nécessaires\n          afin de comprendre l’origine de chaque foyer, les chaînes de\n          transmission et les facteurs ayant favorisé la propagation du virus.\n        </p>\n<div class=\"article-note\">\n<strong>Précaution éditoriale :</strong>\n          les chiffres sanitaires et les déclarations officielles doivent être\n          actualisés et vérifiés avant toute republication.\n        </div>"}];
+}, {"id": "kenya-quarantaine-ebola", "number": "ART 2", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T12:00:00+02:00", "featuredAt": "2026-06-24T12:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Kenya : le gouvernement suspend l’ouverture d’un centre de quarantaine lié à Ebola", "summary": "Le projet installé sur la base aérienne de Laikipia suscite une vive\n          contestation. Les autorités ont annoncé l’arrêt des travaux dans\n          l’attente d’une nouvelle décision de justice.", "body": "<p>\n          Le gouvernement kényan a ordonné la suspension de l’ouverture d’un\n          centre de quarantaine construit avec le soutien des États-Unis pour\n          accueillir des personnes potentiellement exposées au virus Ebola.\n        </p>\n<p>\n          Cette décision a été annoncée par le ministre kényan de la Santé,\n          Aden Duale, lors de sa comparution devant la Haute Cour du Kenya.\n        </p>\n<h2>Arrêt immédiat des travaux</h2>\n<p>\n          Le ministre a déclaré avoir ordonné l’arrêt complet et immédiat de tous\n          les travaux de construction, de préparation du site et de mise en\n          service de l’infrastructure.\n        </p>\n<p>\n          La suspension doit rester en vigueur dans l’attente de l’examen du\n          recours déposé contre le projet et d’une nouvelle décision judiciaire.\n        </p>\n<h2>Un centre presque achevé</h2>\n<p>\n          Le centre, installé sur la base aérienne de Laikipia, devait disposer\n          de 50 lits d’isolement. Les travaux étaient présentés comme presque\n          achevés au début du mois de juin.\n        </p>\n<h2>Une inquiétude grandissante</h2>\n<p>\n          De nombreux citoyens redoutent que l’installation n’augmente le risque\n          d’introduction du virus dans le pays. Ils demandent des informations\n          précises sur les personnes susceptibles d’être accueillies, les\n          procédures de transfert et les mesures de protection prévues.\n        </p>\n<p>\n          Les habitants souhaitent également obtenir des garanties concernant la\n          gestion des déchets médicaux, les protocoles d’isolement, les capacités\n          de dépistage et les procédures prévues en cas de contamination.\n        </p>\n<h2>Une question de souveraineté et de transparence</h2>\n<p>\n          Au-delà de la question sanitaire, le projet soulève des interrogations\n          sur les accords encadrant l’infrastructure, la responsabilité de chaque\n          partie et le contrôle exercé par les autorités kényanes.\n        </p>\n<p>\n          Dans une affaire aussi sensible, la protection de la santé publique\n          suppose une communication régulière, le respect des décisions de\n          justice et un contrôle indépendant des installations.\n        </p>"}, {"id": "ebola-mobilisation-africaine", "number": "ART 1", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T09:00:00+02:00", "featuredAt": "2026-06-24T09:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Ebola : une mobilisation africaine tardive face à une urgence sanitaire grandissante", "summary": "La tenue d’une réunion virtuelle consacrée à l’épidémie constitue une\n          étape utile, mais son caractère tardif soulève des interrogations sur la\n          rapidité et l’efficacité de la réponse sanitaire.", "body": "<p>\n          Plusieurs chefs d’État et de gouvernement africains ont participé à une\n          réunion virtuelle consacrée à l’évolution de l’épidémie de maladie à\n          virus Ebola et aux moyens nécessaires pour renforcer la coordination\n          régionale.\n        </p>\n<p>\n          Cette rencontre intervient plusieurs semaines après la déclaration\n          officielle de l’épidémie en République démocratique du Congo. Cette\n          chronologie alimente les interrogations sur la rapidité de la réponse\n          politique et sur les moyens effectivement mobilisés.\n        </p>\n<h2>Pourquoi avoir attendu plusieurs semaines ?</h2>\n<p>\n          Face à Ebola, chaque journée perdue peut compliquer le traçage des\n          contacts, augmenter le risque de propagation et alourdir la pression\n          exercée sur les structures sanitaires.\n        </p>\n<p>\n          Une réponse efficace exige une coordination rapide : mobilisation des\n          équipes médicales, préparation des frontières, information du public,\n          renforcement des laboratoires et mise à disposition de moyens\n          financiers et logistiques vérifiables.\n        </p>\n<h2>Des discussions, mais quelles décisions concrètes ?</h2>\n<p>\n          Les responsables ont évoqué le renforcement du dépistage, du traçage des\n          contacts, de la surveillance épidémiologique et de la coopération\n          régionale. Ces priorités sont essentielles, mais elles doivent être\n          accompagnées d’engagements chiffrés et d’un calendrier public.\n        </p>\n<p>\n          Sans précisions sur les budgets, les équipes déployées et la répartition\n          des responsabilités, une réunion diplomatique risque de ne pas répondre\n          suffisamment vite aux besoins des populations.\n        </p>\n<h2>Djibouti doit préciser son dispositif de prévention</h2>\n<p>\n          Les autorités djiboutiennes devraient expliquer publiquement les\n          procédures prévues pour contrôler les voyageurs en provenance des zones\n          touchées, les capacités de dépistage disponibles et les mesures\n          d’urgence applicables en cas de cas suspect.\n        </p>\n<p>\n          Il serait également utile de publier régulièrement des informations sur\n          les stocks de matériel de protection, les moyens financiers disponibles\n          et les capacités d’accueil des structures de santé.\n        </p>\n<h2>La transparence ne doit pas être optionnelle</h2>\n<p>\n          Lorsqu’une maladie grave menace plusieurs pays, la transparence doit\n          devenir une obligation. Les citoyens doivent pouvoir connaître les\n          engagements pris, les décisions adoptées et les actions réellement\n          mises en œuvre après les réunions officielles.\n        </p>\n<h2>Conclusion</h2>\n<p>\n          Face à Ebola, les populations africaines ont besoin d’États capables\n          d’anticiper, de prévenir, d’informer et d’agir avant que la situation ne\n          devienne incontrôlable.\n        </p>\n<p>\n          Des enquêtes scientifiques transparentes sont également nécessaires\n          afin de comprendre l’origine de chaque foyer, les chaînes de\n          transmission et les facteurs ayant favorisé la propagation du virus.\n        </p>\n<div class=\"article-note\">\n<strong>Précaution éditoriale :</strong>\n          les chiffres sanitaires et les déclarations officielles doivent être\n          actualisés et vérifiés avant toute republication.\n        </div>"}];
     const FEATURED_DURATION = 24 * 60 * 60 * 1000;
     const searchInput = document.getElementById("article-search");
     const homeView = document.getElementById("home-view");
@@ -1365,18 +1299,26 @@ body: `
 
   return `${jour} à ${heure}`;
 };
-    const remaining = article => {
-      const publicationTime = new Date(article.publishedAt).getTime();
-      const elapsed = Date.now() - publicationTime;
 
-      return Math.max(0, FEATURED_DURATION - elapsed);
+    // Durée d’affichage d’un article dans « À la une » : 24 heures.
+    // featuredAt permet de choisir précisément le départ du chronomètre.
+    // Sans featuredAt, publishedAt est utilisé automatiquement.
+    const articleStartTime = article => {
+      const value = article.featuredAt || article.publishedAt;
+      const timestamp = new Date(value).getTime();
+      return Number.isFinite(timestamp) ? timestamp : 0;
+    };
+
+    const remaining = article => {
+      const startTime = articleStartTime(article);
+      const endTime = startTime + FEATURED_DURATION;
+      return Math.max(0, endTime - Date.now());
     };
 
     const isFeatured = article => {
-      const publicationTime = new Date(article.publishedAt).getTime();
-      const elapsed = Date.now() - publicationTime;
-
-      return elapsed >= 0 && elapsed < FEATURED_DURATION;
+      const startTime = articleStartTime(article);
+      const now = Date.now();
+      return startTime > 0 && now >= startTime && now < startTime + FEATURED_DURATION;
     };
 
     const countdownText = ms => {
