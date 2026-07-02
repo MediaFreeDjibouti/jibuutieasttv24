@@ -2,6 +2,159 @@
 
     const ARTICLES = [
 {
+  id: "mondial-2026-resultats-1-juillet-qualifies",
+  number: "ART 2",
+
+  category: "info-speciale",
+  categoryName: "Info spéciale",
+
+  publishedAt: "2026-07-02T02:46:00+02:00",
+
+  color: "#ad1457",
+  lang: "fr",
+  image: "",
+
+  title: "Mondial 2026 : le Mexique, l’Angleterre et la Belgique qualifiés pour les huitièmes",
+
+  summary:
+    "Le Mexique a éliminé l’Équateur 2-0, l’Angleterre a battu la République démocratique du Congo 2-1 et la Belgique s’est imposée 3-2 face au Sénégal.",
+
+  body: `
+    <p>
+      Trois rencontres des seizièmes de finale de la Coupe du monde 2026
+      ont livré leur verdict au cours de la journée du
+      <strong>mercredi 1er juillet 2026</strong>.
+    </p>
+
+    <p>
+      Le Mexique, l’Angleterre et la Belgique ont remporté leurs matchs
+      respectifs et poursuivront leur parcours en huitièmes de finale.
+      L’Équateur, la République démocratique du Congo et le Sénégal
+      quittent la compétition.
+    </p>
+
+    <h2>Le Mexique élimine l’Équateur</h2>
+
+    <p>
+      Le Mexique s’est imposé face à l’Équateur sur le score de
+      <strong>2-0</strong>.
+    </p>
+
+    <p>
+      La sélection mexicaine a fait preuve de maîtrise et d’efficacité
+      durant la rencontre. Elle a réussi à inscrire deux buts tout en
+      conservant sa cage inviolée face aux offensives équatoriennes.
+    </p>
+
+    <p>
+      Bien organisée défensivement, l’équipe mexicaine a protégé son
+      avantage jusqu’au coup de sifflet final. Cette victoire lui permet
+      de poursuivre son parcours dans la compétition.
+    </p>
+
+    <p>
+      L’Équateur est éliminé après cette défaite, tandis que le Mexique
+      décroche son billet pour les huitièmes de finale.
+    </p>
+
+    <h2>L’Angleterre résiste à la République démocratique du Congo</h2>
+
+    <p>
+      L’Angleterre a battu la République démocratique du Congo sur le
+      score de <strong>2-1</strong>, au terme d’une rencontre disputée.
+    </p>
+
+    <p>
+      La sélection congolaise a livré une prestation courageuse et a
+      longtemps posé des difficultés aux joueurs anglais. Elle n’a
+      toutefois pas réussi à conserver un résultat favorable face à la
+      réaction de l’Angleterre.
+    </p>
+
+    <p>
+      Les Anglais ont progressivement augmenté leur pression et se sont
+      montrés plus efficaces dans les moments décisifs. Leurs deux buts
+      leur ont permis de renverser la situation et de prendre le contrôle
+      de la rencontre.
+    </p>
+
+    <p>
+      Malgré ses efforts jusqu’aux dernières minutes, la République
+      démocratique du Congo n’a pas réussi à égaliser. L’Angleterre
+      s’impose donc 2-1 et se qualifie pour les huitièmes de finale.
+    </p>
+
+    <h2>La Belgique renverse le Sénégal dans un match spectaculaire</h2>
+
+    <p>
+      La rencontre entre la Belgique et le Sénégal a été la plus
+      spectaculaire de cette journée. Les Diables Rouges se sont
+      finalement imposés sur le score de <strong>3-2</strong>.
+    </p>
+
+    <p>
+      Le Sénégal avait pris l’avantage et semblait en mesure de contrôler
+      la rencontre. Les Lions de la Teranga ont notamment utilisé leur
+      vitesse, leur puissance physique et la qualité de leurs transitions
+      offensives pour mettre la défense belge en difficulté.
+    </p>
+
+    <p>
+      La Belgique a néanmoins progressivement retrouvé son efficacité.
+      Les Diables Rouges ont continué à attaquer et ont réussi à revenir
+      dans le match après avoir été menés.
+    </p>
+
+    <p>
+      La fin de la rencontre a été particulièrement intense. Les deux
+      équipes se sont battues jusqu’aux dernières minutes pour obtenir
+      leur qualification.
+    </p>
+
+    <p>
+      La Belgique a finalement inscrit le but décisif et s’est imposée
+      <strong>3-2</strong>. Cette victoire permet aux Diables Rouges de
+      poursuivre leur parcours en huitièmes de finale.
+    </p>
+
+    <p>
+      Le Sénégal est éliminé après avoir livré une prestation courageuse
+      et engagé une véritable bataille sportive face à la sélection belge.
+    </p>
+
+    <h2>Trois nouvelles équipes qualifiées</h2>
+
+    <p>
+      À l’issue de ces trois rencontres, les équipes qualifiées pour les
+      huitièmes de finale sont :
+    </p>
+
+    <div class="article-note">
+      <strong>Mexique 2-0 Équateur</strong><br>
+      Qualifié : Mexique.<br><br>
+
+      <strong>Angleterre 2-1 République démocratique du Congo</strong><br>
+      Qualifiée : Angleterre.<br><br>
+
+      <strong>Belgique 3-2 Sénégal</strong><br>
+      Qualifiée : Belgique.
+    </div>
+
+    <p>
+      Le Mexique, l’Angleterre et la Belgique rejoignent ainsi les autres
+      sélections déjà qualifiées pour les huitièmes de finale de la Coupe
+      du monde 2026.
+    </p>
+
+    <p>
+      À ce stade de la compétition, chaque rencontre devient décisive.
+      Une victoire permet de poursuivre l’aventure, tandis qu’une défaite
+      entraîne immédiatement l’élimination.
+    </p>
+  `
+},
+      
+      {
   id: "mondial-2026-classements-qualifies-programme",
  number: "ART 1",
 
