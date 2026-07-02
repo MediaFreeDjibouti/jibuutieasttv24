@@ -495,7 +495,7 @@ categoryName: "Info spéciale",
 
 {
   id: "belgique-senegal-victoire-prolongation",
-  number: "ART 3",
+  number: "ART 2",
 
   category: "sport",
   categoryName: "Sports",
@@ -624,7 +624,7 @@ categoryName: "Info spéciale",
 },
      {
   id: "senegal-belgique-premiere-mi-temps",
-  number: "ART 2",
+  number: "ART 1",
   category: "sport",
   categoryName: "Sports",
   publishedAt: "2026-07-01T22:50:00+02:00",
