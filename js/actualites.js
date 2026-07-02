@@ -492,7 +492,147 @@ categoryName: "Info spéciale",
     </div>
   `
 },
+{
+  id: "L’Espagne-autriche-premiere-mi-temps",
+  number: "ART 4",
 
+  category: "sports",
+  categoryName: "Sports",
+  publishedAt: "2026-07-02T22:10:00+02:00",
+
+  color: "#c8102e",
+  lang: "fr",
+  image: "",
+  title:"Espagne–Autriche : la Roja domine et mène 1-0 à la mi-temps",
+ summary:
+    "L’Espagne mène 1-0 face à l’Autriche à la pause après avoir largement dominé la première période. Avec environ 70 % de possession, la Roja a multiplié les occasions avant d’ouvrir le score à la 35ᵉ minute.",
+
+  body: `
+    <p>
+      L’Espagne a progressivement pris le contrôle de la rencontre face à
+      l’Autriche grâce à une possession largement supérieure et à plusieurs
+      occasions dangereuses.
+    </p>
+
+    <p>
+      Après un but annulé, la sélection espagnole a finalement trouvé
+      l’ouverture à la <strong>35ᵉ minute</strong>. La première période
+      s’est terminée sur le score de <strong>1-0 en faveur de l’Espagne</strong>.
+    </p>
+
+    <h2>Une domination espagnole dès les premières minutes</h2>
+
+    <p>
+      Dès la <strong>5ᵉ minute</strong>, Yamal a tenté de surprendre le
+      gardien autrichien, mais sa première occasion n’a pas abouti.
+    </p>
+
+    <p>
+      L’Espagne a ensuite conservé le ballon pendant plusieurs minutes,
+      imposant progressivement son rythme, son pressing et son organisation
+      collective.
+    </p>
+
+    <p>
+      À <strong>16 minutes et 55 secondes</strong>, le numéro 9 espagnol
+      a adressé un centre précis en direction du numéro 11. Celui-ci a
+      essayé de reprendre le ballon de la tête, mais l’a manqué de quelques
+      centimètres.
+    </p>
+
+    <h2>Plusieurs tentatives sans réussite</h2>
+
+    <p>
+      À la <strong>18ᵉ minute</strong>, les Espagnols ont tenté une frappe
+      directe, sans parvenir à trouver le cadre.
+    </p>
+
+    <p>
+      Trois minutes plus tard, le numéro 21 espagnol a essayé de dribbler
+      dans la surface de réparation autrichienne.
+    </p>
+
+    <p>
+      Gêné par l’intervention d’un défenseur, il a perdu le contrôle du
+      ballon, finalement récupéré par le gardien adverse.
+    </p>
+
+    <p>
+      L’Espagne continuait néanmoins de dominer la rencontre, avec environ
+      <strong>70 % de possession du ballon</strong>. L’Autriche éprouvait
+      de grandes difficultés à récupérer durablement le ballon et à
+      construire ses propres offensives.
+    </p>
+
+    <h2>Un premier but annulé</h2>
+
+    <p>
+      À la <strong>28ᵉ minute</strong>, un corner espagnol a créé une
+      nouvelle situation dangereuse devant le but autrichien.
+    </p>
+
+    <p>
+      Le ballon a terminé au fond des filets, mais l’arbitre a immédiatement
+      annulé le but. L’Espagne a donc dû poursuivre ses efforts pour
+      concrétiser sa domination.
+    </p>
+
+    <h2>L’Espagne ouvre finalement le score</h2>
+
+    <p>
+      La domination espagnole a été récompensée à la
+      <strong>35ᵉ minute</strong>.
+    </p>
+
+    <p>
+      Le numéro 24 a effectué une excellente passe depuis le côté gauche
+      en direction du numéro 21. Bien placé devant le but, ce dernier a
+      conclu l’action et envoyé le ballon au fond des filets.
+    </p>
+
+    <p>
+      L’Espagne a ainsi ouvert le score après plusieurs tentatives et une
+      longue période de possession.
+    </p>
+
+    <h2>Un coup franc sur le poteau</h2>
+
+    <p>
+      À la <strong>39ᵉ minute</strong>, une faute a offert un coup franc
+      dangereux à la sélection espagnole.
+    </p>
+
+    <p>
+      Le tireur a tenté une frappe directe qui a heurté le poteau avant
+      de revenir dans la surface. Yamal a essayé de reprendre le ballon,
+      mais sa tentative n’a pas permis d’inscrire un deuxième but.
+    </p>
+
+    <h2>L’Espagne mène à la pause</h2>
+
+    <p>
+      La première mi-temps s’est terminée sur le score de
+      <strong>1-0 pour l’Espagne</strong>.
+    </p>
+
+    <p>
+      La Roja mène logiquement grâce à sa maîtrise du ballon, à son
+      pressing et à sa capacité à multiplier les occasions offensives.
+    </p>
+
+    <p>
+      L’Autriche devra montrer un visage plus offensif en seconde période
+      pour tenter de revenir dans la rencontre, tandis que l’Espagne
+      cherchera à conserver son contrôle du jeu et à inscrire un deuxième but.
+    </p>
+
+    <div class="article-note">
+      <strong>Score à la mi-temps :</strong> Espagne 1-0 Autriche.<br>
+      <strong>Possession espagnole :</strong> environ 70 %.<br>
+      <strong>Situation :</strong> l’Espagne domine la rencontre.
+    </div>
+  `
+},
 {
   id: "belgique-senegal-victoire-prolongation",
   number: "ART 3",
