@@ -1365,8 +1365,6 @@ body: `
 
   return `${jour} à ${heure}`;
 };
-
-    // Durée d’affichage d’un article dans « À la une » : 24 heures
     const remaining = article => {
       const publicationTime = new Date(article.publishedAt).getTime();
       const elapsed = Date.now() - publicationTime;
