@@ -12,7 +12,7 @@
 
   color: "#ad1457",
   lang: "fr",
-  image: "",
+  image: "Qualification 8éme finale.png",
 
   title: "Mondial 2026 : le Mexique, l’Angleterre et la Belgique qualifiés pour les huitièmes",
 
