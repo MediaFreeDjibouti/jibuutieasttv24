@@ -493,18 +493,22 @@ categoryName: "Info spéciale",
   `
 },
 {
-  id: "L’Espagne-autriche-premiere-mi-temps",
+  id: "espagne-autriche-premiere-mi-temps",
   number: "ART 4",
 
   category: "sports",
   categoryName: "Sports",
-  publishedAt: "2026-07-02T22:10:00+02:00",
+
+  publishedAt: "2026-07-02T21:50:00+02:00",
 
   color: "#c8102e",
   lang: "fr",
   image: "",
-  title:"Espagne–Autriche : la Roja domine et mène 1-0 à la mi-temps",
- summary:
+
+  title:
+    "Espagne–Autriche : la Roja domine et mène 1-0 à la mi-temps",
+
+  summary:
     "L’Espagne mène 1-0 face à l’Autriche à la pause après avoir largement dominé la première période. Avec environ 70 % de possession, la Roja a multiplié les occasions avant d’ouvrir le score à la 35ᵉ minute.",
 
   body: `
