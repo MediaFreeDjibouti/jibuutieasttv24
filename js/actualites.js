@@ -499,7 +499,7 @@ categoryName: "Info spéciale",
   category: "sports",
   categoryName: "Sports",
 
-  publishedAt: "2026-07-02T21:50:00+02:00",
+  publishedAt: "2026-07-02T21:50",
 
   color: "#c8102e",
   lang: "fr",
