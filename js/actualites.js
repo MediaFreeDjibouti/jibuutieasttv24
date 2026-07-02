@@ -1,4 +1,4 @@
-  "use strict";
+ "use strict";
 
     const ARTICLES = [
 {
@@ -873,7 +873,182 @@ categoryName: "Info spéciale",
   `
 },
 
-{"id": "venezuela-seismes", "number": "ART 1", "category": "international", "categoryName": "Actualités internationales", "publishedAt": "2026-06-28T10:30:00+02:00", "color": "#1261a0", "lang": "fr", "title": "Venezuela : le bilan du double séisme dépasse 1 400 morts", "summary": "Les deux puissantes secousses qui ont frappé le nord du Venezuela ont\n          provoqué d’importantes destructions, particulièrement dans l’État de\n          La Guaira. Les opérations de secours se poursuivent.", "body": "<p>\n          Le Venezuela fait face à une catastrophe humanitaire majeure après les\n          deux puissants séismes de magnitude 7,2 et 7,5 qui ont frappé le nord\n          du pays mercredi 24 juin 2026.\n        </p>\n<p>\n          Le bilan provisoire, initialement établi à 164 morts, s’élève désormais\n          à au moins 1 430 décès et 3 238 blessés, selon les chiffres communiqués\n          par les autorités. Des dizaines de milliers de personnes restent\n          portées disparues.\n        </p>\n<h2>La Guaira parmi les zones les plus durement touchées</h2>\n<p>\n          Les secousses ont laissé un paysage de dévastation, avec de nombreux\n          immeubles effondrés à Caracas et dans plusieurs régions du nord du pays.\n          La ville côtière de La Guaira figure parmi les secteurs les plus\n          gravement touchés.\n        </p>\n<p>\n          Les habitants, les familles et les bénévoles réclament davantage de\n          machines spécialisées afin de déplacer les imposants blocs de béton et\n          de découper les structures métalliques qui ralentissent les recherches.\n        </p>\n<h2>Des millions de personnes potentiellement affectées</h2>\n<p>\n          Selon l’Organisation internationale pour les migrations, jusqu’à\n          6,76 millions de personnes pourraient avoir été affectées par la\n          catastrophe, dont près de deux millions dans la région de Caracas.\n        </p>\n<p>\n          Les besoins en soins médicaux, en eau potable, en nourriture, en\n          hébergements temporaires et en équipements de recherche augmentent\n          rapidement dans les zones sinistrées.\n        </p>\n<h2>Des hôpitaux débordés</h2>\n<p>\n          Plusieurs établissements de santé sont soumis à une pression\n          considérable. Des familles disent avoir dû transporter elles-mêmes\n          leurs proches décédés, les services hospitaliers et funéraires étant\n          débordés par l’afflux de victimes.\n        </p>\n<h2>Une nouvelle secousse enregistrée samedi</h2>\n<p>\n          Un nouveau tremblement de terre de magnitude 4,8 a été enregistré\n          samedi. Son épicentre se situait à environ 70 kilomètres à l’ouest de\n          Caracas et à une profondeur estimée à 10 kilomètres.\n        </p>\n<p>\n          La répétition des secousses complique le travail des équipes de secours\n          et augmente les risques autour des bâtiments déjà fragilisés.\n        </p>\n<h2>Un nouveau-né retrouvé vivant</h2>\n<p>\n          Un nouveau-né a été extrait vivant des décombres d’un bâtiment effondré\n          à La Guaira, environ 32 heures après la catastrophe. Ce sauvetage a\n          entretenu l’espoir de retrouver d’autres survivants.\n        </p>\n<div class=\"article-note\">\n<strong>Information évolutive :</strong>\n          les bilans humains et matériels peuvent être révisés à mesure que les\n          équipes de secours accèdent aux secteurs les plus endommagés.\n        </div>"}, {"id": "ethiopie-abiy-ahmed", "number": "ART 1", "category": "politique", "categoryName": "Politique", "publishedAt": "2026-06-24T14:15:00+02:00", "color": "#b42318", "lang": "so", "title": "Itoobiya: Abiy Axmed oo xoojiyey awooddiisa kadib guul weyn oo doorasho", "summary": "Xisbiga Barwaaqo ayaa helay aqlabiyad ballaaran oo baarlamaanka ah,\n          balse dowladda cusub waxay weli wajahaysaa caqabado dhinacyada amniga,\n          dhaqaalaha iyo dib-u-heshiisiinta ah.", "body": "<p>\n          Ra’iisul Wasaaraha Itoobiya, Abiy Axmed, ayaa si weyn ugu guuleystay\n          doorashooyinkii guud ee ugu dambeeyay ee dalka laga qabtay. Xisbigiisa,\n          Xisbiga Barwaaqo, ayaa ku guuleystay 438 kursi oo ka mid ah 501 kursi\n          oo baarlamaanka loo tartamay.\n        </p>\n<p>\n          Natiijadan ayaa xisbiga u xaqiijisay aqlabiyad ballaaran oo u saamaxaysa\n          inuu soo dhiso dowladda cusub, isla markaana uu sii wado barnaamijkiisa\n          siyaasadeed muddo xileed kale.\n        </p>\n<h2>Guul siyaasadeed oo muhiim ah</h2>\n<p>\n          Taageerayaasha dowladda waxay aaminsan yihiin in aqlabiyaddan cusub ay\n          siinayso Abiy Axmed awood siyaasadeed oo uu ku sii wadi karo\n          dib-u-habaynta hay’adaha dowladda, casriyeynta dhaqaalaha iyo\n          mashaariicda horumarinta qaranka.\n        </p>\n<h2>Doorasho ka dhacday jawi siyaasadeed oo cakiran</h2>\n<p>\n          Si kastaba ha ahaatee, doorashadan ayaa ku dhacday jawi aad u cakiran.\n          Gobollo badan oo dalka ka tirsan ayaa wajahaya dhibaatooyin amni,\n          khilaafaad siyaasadeed iyo xiisado bulsho.\n        </p>\n<p>\n          Qaar ka mid ah xisbiyada mucaaradka ayaa ku eedeeyay hanaanka doorashada\n          inuusan ahayn mid si buuxda ugu dhisnaa caddaalad, tartan siman iyo\n          ka-qaybgal siyaasadeed oo loo wada dhan yahay.\n        </p>\n<h2>Caqabadaha horyaalla dowladda cusub</h2>\n<p>\n          Dowladda cusub waxay wajahaysaa caqabado ay ka mid yihiin xoojinta\n          amniga, soo celinta kalsoonida shacabka, dib-u-heshiisiinta bulshada,\n          ilaalinta xuquuqda muwaadiniinta, la dagaallanka sicir-bararka iyo\n          abuurista fursado shaqo oo loogu talagalay dhalinyarada.\n        </p>\n<h2>Gunaanad</h2>\n<p>\n          Guusha doorashada waxay Abiy Axmed siinaysaa awood siyaasadeed oo weyn,\n          balse aqlabiyad baarlamaan keliya ma xallin karto dhibaatooyinka qotada\n          dheer ee Itoobiya. Mustaqbalka dowladda waxaa lagu qiimeyn doonaa\n          awoodda ay u leedahay inay soo celiso nabadda, hagaajiso dhaqaalaha iyo\n          inay dhisto nidaam siyaasadeed oo loo dhan yahay.\n        </p>\n<div class=\"article-note\">\n<strong>Ogeysiiska tifaftirka:</strong>\n          xogta doorashada iyo sheegashooyinka siyaasadeed waa in lagu\n          xaqiijiyaa ilo rasmi ah ka hor daabacaad kasta oo cusub.\n        </div>"}, {"id": "kenya-quarantaine-ebola", "number": "ART 2", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T12:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Kenya : le gouvernement suspend l’ouverture d’un centre de quarantaine lié à Ebola", "summary": "Le projet installé sur la base aérienne de Laikipia suscite une vive\n          contestation. Les autorités ont annoncé l’arrêt des travaux dans\n          l’attente d’une nouvelle décision de justice.", "body": "<p>\n          Le gouvernement kényan a ordonné la suspension de l’ouverture d’un\n          centre de quarantaine construit avec le soutien des États-Unis pour\n          accueillir des personnes potentiellement exposées au virus Ebola.\n        </p>\n<p>\n          Cette décision a été annoncée par le ministre kényan de la Santé,\n          Aden Duale, lors de sa comparution devant la Haute Cour du Kenya.\n        </p>\n<h2>Arrêt immédiat des travaux</h2>\n<p>\n          Le ministre a déclaré avoir ordonné l’arrêt complet et immédiat de tous\n          les travaux de construction, de préparation du site et de mise en\n          service de l’infrastructure.\n        </p>\n<p>\n          La suspension doit rester en vigueur dans l’attente de l’examen du\n          recours déposé contre le projet et d’une nouvelle décision judiciaire.\n        </p>\n<h2>Un centre presque achevé</h2>\n<p>\n          Le centre, installé sur la base aérienne de Laikipia, devait disposer\n          de 50 lits d’isolement. Les travaux étaient présentés comme presque\n          achevés au début du mois de juin.\n        </p>\n<h2>Une inquiétude grandissante</h2>\n<p>\n          De nombreux citoyens redoutent que l’installation n’augmente le risque\n          d’introduction du virus dans le pays. Ils demandent des informations\n          précises sur les personnes susceptibles d’être accueillies, les\n          procédures de transfert et les mesures de protection prévues.\n        </p>\n<p>\n          Les habitants souhaitent également obtenir des garanties concernant la\n          gestion des déchets médicaux, les protocoles d’isolement, les capacités\n          de dépistage et les procédures prévues en cas de contamination.\n        </p>\n<h2>Une question de souveraineté et de transparence</h2>\n<p>\n          Au-delà de la question sanitaire, le projet soulève des interrogations\n          sur les accords encadrant l’infrastructure, la responsabilité de chaque\n          partie et le contrôle exercé par les autorités kényanes.\n        </p>\n<p>\n          Dans une affaire aussi sensible, la protection de la santé publique\n          suppose une communication régulière, le respect des décisions de\n          justice et un contrôle indépendant des installations.\n        </p>"}, {"id": "ebola-mobilisation-africaine", "number": "ART 1", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T09:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Ebola : une mobilisation africaine tardive face à une urgence sanitaire grandissante", "summary": "La tenue d’une réunion virtuelle consacrée à l’épidémie constitue une\n          étape utile, mais son caractère tardif soulève des interrogations sur la\n          rapidité et l’efficacité de la réponse sanitaire.", "body": "<p>\n          Plusieurs chefs d’État et de gouvernement africains ont participé à une\n          réunion virtuelle consacrée à l’évolution de l’épidémie de maladie à\n          virus Ebola et aux moyens nécessaires pour renforcer la coordination\n          régionale.\n        </p>\n<p>\n          Cette rencontre intervient plusieurs semaines après la déclaration\n          officielle de l’épidémie en République démocratique du Congo. Cette\n          chronologie alimente les interrogations sur la rapidité de la réponse\n          politique et sur les moyens effectivement mobilisés.\n        </p>\n<h2>Pourquoi avoir attendu plusieurs semaines ?</h2>\n<p>\n          Face à Ebola, chaque journée perdue peut compliquer le traçage des\n          contacts, augmenter le risque de propagation et alourdir la pression\n          exercée sur les structures sanitaires.\n        </p>\n<p>\n          Une réponse efficace exige une coordination rapide : mobilisation des\n          équipes médicales, préparation des frontières, information du public,\n          renforcement des laboratoires et mise à disposition de moyens\n          financiers et logistiques vérifiables.\n        </p>\n<h2>Des discussions, mais quelles décisions concrètes ?</h2>\n<p>\n          Les responsables ont évoqué le renforcement du dépistage, du traçage des\n          contacts, de la surveillance épidémiologique et de la coopération\n          régionale. Ces priorités sont essentielles, mais elles doivent être\n          accompagnées d’engagements chiffrés et d’un calendrier public.\n        </p>\n<p>\n          Sans précisions sur les budgets, les équipes déployées et la répartition\n          des responsabilités, une réunion diplomatique risque de ne pas répondre\n          suffisamment vite aux besoins des populations.\n        </p>\n<h2>Djibouti doit préciser son dispositif de prévention</h2>\n<p>\n          Les autorités djiboutiennes devraient expliquer publiquement les\n          procédures prévues pour contrôler les voyageurs en provenance des zones\n          touchées, les capacités de dépistage disponibles et les mesures\n          d’urgence applicables en cas de cas suspect.\n        </p>\n<p>\n          Il serait également utile de publier régulièrement des informations sur\n          les stocks de matériel de protection, les moyens financiers disponibles\n          et les capacités d’accueil des structures de santé.\n        </p>\n<h2>La transparence ne doit pas être optionnelle</h2>\n<p>\n          Lorsqu’une maladie grave menace plusieurs pays, la transparence doit\n          devenir une obligation. Les citoyens doivent pouvoir connaître les\n          engagements pris, les décisions adoptées et les actions réellement\n          mises en œuvre après les réunions officielles.\n        </p>\n<h2>Conclusion</h2>\n<p>\n          Face à Ebola, les populations africaines ont besoin d’États capables\n          d’anticiper, de prévenir, d’informer et d’agir avant que la situation ne\n          devienne incontrôlable.\n        </p>\n<p>\n          Des enquêtes scientifiques transparentes sont également nécessaires\n          afin de comprendre l’origine de chaque foyer, les chaînes de\n          transmission et les facteurs ayant favorisé la propagation du virus.\n        </p>\n<div class=\"article-note\">\n<strong>Précaution éditoriale :</strong>\n          les chiffres sanitaires et les déclarations officielles doivent être\n          actualisés et vérifiés avant toute republication.\n        </div>"}];
+{"id": "venezuela-seismes", "number": "ART 1", "category": "international",
+ "categoryName": "Actualités internationales", 
+ "publishedAt": "2026-06-28T10:30:00+02:00", 
+ "color": "#1261a0", 
+ "lang": "fr",
+ "image": "",
+ title: "Venezuela : le bilan du double séisme dépasse 1 400 morts",
+
+summary:
+  "Les deux puissantes secousses qui ont frappé le nord du Venezuela ont provoqué d’importantes destructions, particulièrement dans l’État de La Guaira. Les opérations de secours se poursuivent.",
+
+body: `
+  <p>
+    Le Venezuela fait face à une catastrophe humanitaire majeure après les
+    deux puissants séismes de magnitude 7,2 et 7,5 qui ont frappé le nord
+    du pays mercredi 24 juin 2026.
+  </p>
+
+  <p>
+    Le bilan provisoire, initialement établi à 164 morts, s’élève désormais
+    à au moins 1 430 décès et 3 238 blessés, selon les chiffres communiqués
+    par les autorités. Des dizaines de milliers de personnes restent
+    portées disparues.
+  </p>
+
+  <h2>La Guaira parmi les zones les plus durement touchées</h2>
+
+  <p>
+    Les secousses ont laissé un paysage de dévastation, avec de nombreux
+    immeubles effondrés à Caracas et dans plusieurs régions du nord du pays.
+    La ville côtière de La Guaira figure parmi les secteurs les plus
+    gravement touchés.
+  </p>
+
+  <p>
+    Les habitants, les familles et les bénévoles réclament davantage de
+    machines spécialisées afin de déplacer les imposants blocs de béton et
+    de découper les structures métalliques qui ralentissent les recherches.
+  </p>
+
+  <h2>Des millions de personnes potentiellement affectées</h2>
+
+  <p>
+    Selon l’Organisation internationale pour les migrations, jusqu’à
+    6,76 millions de personnes pourraient avoir été affectées par la
+    catastrophe, dont près de deux millions dans la région de Caracas.
+  </p>
+
+  <p>
+    Les besoins en soins médicaux, en eau potable, en nourriture, en
+    hébergements temporaires et en équipements de recherche augmentent
+    rapidement dans les zones sinistrées.
+  </p>
+
+  <h2>Des hôpitaux débordés</h2>
+
+  <p>
+    Plusieurs établissements de santé sont soumis à une pression
+    considérable. Des familles disent avoir dû transporter elles-mêmes
+    leurs proches décédés, les services hospitaliers et funéraires étant
+    débordés par l’afflux de victimes.
+  </p>
+
+  <h2>Une nouvelle secousse enregistrée samedi</h2>
+
+  <p>
+    Un nouveau tremblement de terre de magnitude 4,8 a été enregistré
+    samedi. Son épicentre se situait à environ 70 kilomètres à l’ouest
+    de Caracas et à une profondeur estimée à 10 kilomètres.
+  </p>
+
+  <p>
+    La répétition des secousses complique le travail des équipes de secours
+    et augmente les risques autour des bâtiments déjà fragilisés.
+  </p>
+
+  <h2>Un nouveau-né retrouvé vivant</h2>
+
+  <p>
+    Un nouveau-né a été extrait vivant des décombres d’un bâtiment effondré
+    à La Guaira, environ 32 heures après la catastrophe. Ce sauvetage a
+    entretenu l’espoir de retrouver d’autres survivants.
+  </p>
+
+  <div class="article-note">
+    <strong>Information évolutive :</strong>
+    les bilans humains et matériels peuvent être révisés à mesure que les
+    équipes de secours accèdent aux secteurs les plus endommagés.
+  </div>
+`
+}, {
+  id: "ethiopie-abiy-ahmed",
+  number: "ART 1",
+
+  category: "politique",
+  categoryName: "Politique",
+
+  publishedAt: "2026-06-24T14:15:00+02:00",
+
+  color: "#d4a900",
+  lang: "so",
+  image: "",
+
+  title:
+    "Itoobiya: Abiy Axmed oo xoojiyey awooddiisa kadib guul weyn oo doorasho",
+
+  summary:
+    "Xisbiga Barwaaqo ayaa helay aqlabiyad ballaaran oo baarlamaanka ah, balse dowladda cusub waxay weli wajahaysaa caqabado dhinacyada amniga, dhaqaalaha iyo dib-u-heshiisiinta ah.",
+
+  body: `
+    <p>
+      Ra’iisul Wasaaraha Itoobiya, Abiy Axmed, ayaa si weyn ugu guuleystay
+      doorashooyinkii guud ee ugu dambeeyay ee dalka laga qabtay. Xisbigiisa,
+      Xisbiga Barwaaqo, ayaa ku guuleystay 438 kursi oo ka mid ah 501 kursi
+      oo baarlamaanka loo tartamay.
+    </p>
+
+    <p>
+      Natiijadan ayaa xisbiga u xaqiijisay aqlabiyad ballaaran oo u saamaxaysa
+      inuu soo dhiso dowladda cusub, isla markaana uu sii wado barnaamijkiisa
+      siyaasadeed muddo xileed kale.
+    </p>
+
+    <h2>Guul siyaasadeed oo muhiim ah</h2>
+
+    <p>
+      Taageerayaasha dowladda waxay aaminsan yihiin in aqlabiyaddan cusub ay
+      siinayso Abiy Axmed awood siyaasadeed oo uu ku sii wadi karo
+      dib-u-habaynta hay’adaha dowladda, casriyeynta dhaqaalaha iyo
+      mashaariicda horumarinta qaranka.
+    </p>
+
+    <h2>Doorasho ka dhacday jawi siyaasadeed oo cakiran</h2>
+
+    <p>
+      Si kastaba ha ahaatee, doorashadan ayaa ku dhacday jawi aad u cakiran.
+      Gobollo badan oo dalka ka tirsan ayaa wajahaya dhibaatooyin amni,
+      khilaafaad siyaasadeed iyo xiisado bulsho.
+    </p>
+
+    <p>
+      Qaar ka mid ah xisbiyada mucaaradka ayaa ku eedeeyay hanaanka doorashada
+      inuusan ahayn mid si buuxda ugu dhisnaa caddaalad, tartan siman iyo
+      ka-qaybgal siyaasadeed oo loo wada dhan yahay.
+    </p>
+
+    <h2>Caqabadaha horyaalla dowladda cusub</h2>
+
+    <p>
+      Dowladda cusub waxay wajahaysaa caqabado ay ka mid yihiin xoojinta
+      amniga, soo celinta kalsoonida shacabka, dib-u-heshiisiinta bulshada,
+      ilaalinta xuquuqda muwaadiniinta, la dagaallanka sicir-bararka iyo
+      abuurista fursado shaqo oo loogu talagalay dhalinyarada.
+    </p>
+
+    <h2>Gunaanad</h2>
+
+    <p>
+      Guusha doorashada waxay Abiy Axmed siinaysaa awood siyaasadeed oo weyn,
+      balse aqlabiyad baarlamaan keliya ma xallin karto dhibaatooyinka qotada
+      dheer ee Itoobiya.
+    </p>
+
+    <p>
+      Mustaqbalka dowladda waxaa lagu qiimeyn doonaa awoodda ay u leedahay
+      inay soo celiso nabadda, hagaajiso dhaqaalaha iyo inay dhisto nidaam
+      siyaasadeed oo loo dhan yahay.
+    </p>
+
+   <div class="article-note">
+      <strong>Ogeysiiska tifaftirka:</strong>
+      xogta doorashada iyo sheegashooyinka siyaasadeed waa in lagu
+      xaqiijiyaa ilo rasmi ah ka hor daabacaad kasta oo cusub.
+    </div>
+  `
+}, {"id": "kenya-quarantaine-ebola", "number": "ART 2", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T12:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Kenya : le gouvernement suspend l’ouverture d’un centre de quarantaine lié à Ebola", "summary": "Le projet installé sur la base aérienne de Laikipia suscite une vive\n          contestation. Les autorités ont annoncé l’arrêt des travaux dans\n          l’attente d’une nouvelle décision de justice.", "body": "<p>\n          Le gouvernement kényan a ordonné la suspension de l’ouverture d’un\n          centre de quarantaine construit avec le soutien des États-Unis pour\n          accueillir des personnes potentiellement exposées au virus Ebola.\n        </p>\n<p>\n          Cette décision a été annoncée par le ministre kényan de la Santé,\n          Aden Duale, lors de sa comparution devant la Haute Cour du Kenya.\n        </p>\n<h2>Arrêt immédiat des travaux</h2>\n<p>\n          Le ministre a déclaré avoir ordonné l’arrêt complet et immédiat de tous\n          les travaux de construction, de préparation du site et de mise en\n          service de l’infrastructure.\n        </p>\n<p>\n          La suspension doit rester en vigueur dans l’attente de l’examen du\n          recours déposé contre le projet et d’une nouvelle décision judiciaire.\n        </p>\n<h2>Un centre presque achevé</h2>\n<p>\n          Le centre, installé sur la base aérienne de Laikipia, devait disposer\n          de 50 lits d’isolement. Les travaux étaient présentés comme presque\n          achevés au début du mois de juin.\n        </p>\n<h2>Une inquiétude grandissante</h2>\n<p>\n          De nombreux citoyens redoutent que l’installation n’augmente le risque\n          d’introduction du virus dans le pays. Ils demandent des informations\n          précises sur les personnes susceptibles d’être accueillies, les\n          procédures de transfert et les mesures de protection prévues.\n        </p>\n<p>\n          Les habitants souhaitent également obtenir des garanties concernant la\n          gestion des déchets médicaux, les protocoles d’isolement, les capacités\n          de dépistage et les procédures prévues en cas de contamination.\n        </p>\n<h2>Une question de souveraineté et de transparence</h2>\n<p>\n          Au-delà de la question sanitaire, le projet soulève des interrogations\n          sur les accords encadrant l’infrastructure, la responsabilité de chaque\n          partie et le contrôle exercé par les autorités kényanes.\n        </p>\n<p>\n          Dans une affaire aussi sensible, la protection de la santé publique\n          suppose une communication régulière, le respect des décisions de\n          justice et un contrôle indépendant des installations.\n        </p>"}, {"id": "ebola-mobilisation-africaine", "number": "ART 1", "category": "sante", "categoryName": "Santé", "publishedAt": "2026-06-24T09:00:00+02:00", "color": "#087f5b", "lang": "fr", "title": "Ebola : une mobilisation africaine tardive face à une urgence sanitaire grandissante", "summary": "La tenue d’une réunion virtuelle consacrée à l’épidémie constitue une\n          étape utile, mais son caractère tardif soulève des interrogations sur la\n          rapidité et l’efficacité de la réponse sanitaire.", "body": "<p>\n          Plusieurs chefs d’État et de gouvernement africains ont participé à une\n          réunion virtuelle consacrée à l’évolution de l’épidémie de maladie à\n          virus Ebola et aux moyens nécessaires pour renforcer la coordination\n          régionale.\n        </p>\n<p>\n          Cette rencontre intervient plusieurs semaines après la déclaration\n          officielle de l’épidémie en République démocratique du Congo. Cette\n          chronologie alimente les interrogations sur la rapidité de la réponse\n          politique et sur les moyens effectivement mobilisés.\n        </p>\n<h2>Pourquoi avoir attendu plusieurs semaines ?</h2>\n<p>\n          Face à Ebola, chaque journée perdue peut compliquer le traçage des\n          contacts, augmenter le risque de propagation et alourdir la pression\n          exercée sur les structures sanitaires.\n        </p>\n<p>\n          Une réponse efficace exige une coordination rapide : mobilisation des\n          équipes médicales, préparation des frontières, information du public,\n          renforcement des laboratoires et mise à disposition de moyens\n          financiers et logistiques vérifiables.\n        </p>\n<h2>Des discussions, mais quelles décisions concrètes ?</h2>\n<p>\n          Les responsables ont évoqué le renforcement du dépistage, du traçage des\n          contacts, de la surveillance épidémiologique et de la coopération\n          régionale. Ces priorités sont essentielles, mais elles doivent être\n          accompagnées d’engagements chiffrés et d’un calendrier public.\n        </p>\n<p>\n          Sans précisions sur les budgets, les équipes déployées et la répartition\n          des responsabilités, une réunion diplomatique risque de ne pas répondre\n          suffisamment vite aux besoins des populations.\n        </p>\n<h2>Djibouti doit préciser son dispositif de prévention</h2>\n<p>\n          Les autorités djiboutiennes devraient expliquer publiquement les\n          procédures prévues pour contrôler les voyageurs en provenance des zones\n          touchées, les capacités de dépistage disponibles et les mesures\n          d’urgence applicables en cas de cas suspect.\n        </p>\n<p>\n          Il serait également utile de publier régulièrement des informations sur\n          les stocks de matériel de protection, les moyens financiers disponibles\n          et les capacités d’accueil des structures de santé.\n        </p>\n<h2>La transparence ne doit pas être optionnelle</h2>\n<p>\n          Lorsqu’une maladie grave menace plusieurs pays, la transparence doit\n          devenir une obligation. Les citoyens doivent pouvoir connaître les\n          engagements pris, les décisions adoptées et les actions réellement\n          mises en œuvre après les réunions officielles.\n        </p>\n<h2>Conclusion</h2>\n<p>\n          Face à Ebola, les populations africaines ont besoin d’États capables\n          d’anticiper, de prévenir, d’informer et d’agir avant que la situation ne\n          devienne incontrôlable.\n        </p>\n<p>\n          Des enquêtes scientifiques transparentes sont également nécessaires\n          afin de comprendre l’origine de chaque foyer, les chaînes de\n          transmission et les facteurs ayant favorisé la propagation du virus.\n        </p>\n<div class=\"article-note\">\n<strong>Précaution éditoriale :</strong>\n          les chiffres sanitaires et les déclarations officielles doivent être\n          actualisés et vérifiés avant toute republication.\n        </div>"}];
     const FEATURED_DURATION = 24 * 60 * 60 * 1000;
     const searchInput = document.getElementById("article-search");
     const homeView = document.getElementById("home-view");
@@ -983,6 +1158,16 @@ categoryName: "Info spéciale",
     function renderSections() {
       document.querySelectorAll("[data-category]").forEach(container => {
         const category = container.dataset.category;
+
+        const categoryColor = ARTICLES.find(
+          article => article.category === category
+        )?.color;
+
+        const section = container.closest(".news-section");
+        if (section && categoryColor) {
+          section.style.setProperty("--category-color", categoryColor);
+        }
+
         const list = ARTICLES
           .filter(a => a.category === category)
           .filter(matches)
