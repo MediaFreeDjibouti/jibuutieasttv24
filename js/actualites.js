@@ -1180,7 +1180,7 @@ body: `
 `
 },
       {
-  id:"Beaucoup d'annonces, mais où sont les résultats ?"
+  id: "Beaucoup d'annonces, mais où sont les résultats ?",
     category: "politique",
    number: "ART 2",
   categoryName: "Politique",
