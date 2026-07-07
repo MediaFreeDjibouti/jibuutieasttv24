@@ -14,7 +14,7 @@
 
   color: "#ad1457",
   lang: "fr",
-  image: "",
+  image: "mondial-2026-resultats.png",
 
   title: "Mondial 2026 : le Mexique, l’Angleterre et la Belgique qualifiés pour les huitièmes",
 
@@ -1178,11 +1178,77 @@ body: `
     équipes de secours accèdent aux secteurs les plus endommagés.
   </div>
 `
-}, {
-  id: "ethiopie-abiy-ahmed",
-  number: "ART 1",
+},
+      {
+  id:"Beaucoup d'annonces, mais où sont les résultats ?"
+    category: "politique",
+   number: "ART 2",
+  categoryName: "Politique",
+  publishedAt: "2026-07-07T07:35:00+02:00",
+  featuredAt: "2026-07-07T14:35:00+02:00",
+     color: "#d4a900",
+  lang: "so",
+    image: "",
+     title: "Le ministre de l'Économie et des Finances a rien poursuit sa tournée en Chine",
+   summary: "Le ministre de l'Économie et des Finances de rien (regime de djibouti) poursuit sa tournée en Chine et multiplie les rencontres avec les responsables du Parti communiste chinois. Officiellement, cherche t-i encore a nous endette trop.",
+    body: `
+   <p>
+   quels résultats concrets cette diplomatie apporte-t-elle réellement aux citoyens ?
+  <p>
+    <p>
+    Depuis plusieurs années, les autorités annoncent de nombreux accords, protocoles d'entente et promesses d'investissements.
+    Pourtant, une partie de la population continue de s'interroger sur les retombées économiques visibles dans la vie quotidienne.
+   <p>
+   
+     <p>
+     Combien d'emplois durables ont été créés grâce aux précédents accords avec la Chine ?
+    <p>
+     <p>
+     Les autorités communiquent régulièrement sur les partenariats conclus, mais les données détaillées sur les emplois créés et leurs bénéfices pour la population sont rarement mises en avant.
+<p>
+   <p>
+   Pourquoi le gouvernement ne publie-t-il pas un bilan précis des investissements réalisés et de leurs impacts ?
+  <p>
+  
+   <p>
+   Une plus grande transparence permettrait aux citoyens d'évaluer les résultats réels des projets financés et de renforcer la confiance dans l'action publique.
+<p>
 
-  category: "politique",
+ <p>
+ Les intérêts économiques de Djibouti sont-ils suffisamment protégés dans ces partenariats ?
+ <p>
+
+<h3> C'est une interrogation légitime</h3> 
+ 
+  <p>
+  De nombreux observateurs estiment que tout partenariat international devrait être accompagné d'un suivi public garantissant que les bénéfices profitent en priorité au développement national.
+<p>
+
+ <p>
+ Les annonces officielles sont-elles suivies d'effets concrets ?
+<p>
+
+ <h3>Les citoyens jugent principalement les résultats</h3>
+
+ <p>
+ amélioration du pouvoir d'achat, création d'emplois, développement des infrastructures et réduction du chômage. 
+ Sans indicateurs publics et mesurables, il est difficile d'évaluer l'efficacité de ces missions.
+<p>
+
+ <p>
+La coopération internationale est un levier important pour le développement. 
+Toutefois, au-delà des rencontres diplomatiques et des photographies officielles.
+<p>
+ <div class="article-note">
+ les citoyens attendent des résultats concrets, mesurables et transparents. 
+<strong>Une communication fondée sur des bilans chiffrés et des réalisations tangibles contribuerait à renforcer la crédibilité de l'action gouvernementale et la confiance du public:</strong>
+   </div>
+  `
+}, 
+  {
+  id: "ethiopie-abiy-ahmed",
+   category: "politique",
+   number: "ART 1",
   categoryName: "Politique",
 
   publishedAt: "2026-06-24T14:15:00+02:00",
