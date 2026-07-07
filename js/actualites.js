@@ -497,6 +497,53 @@ categoryName: "Info spéciale",
 },
 
 {
+  id: "belgique-quart-finale-etats-unis-2026",
+
+  category: "sports",
+  number: "ART 6",
+  categoryName: "Sports",
+
+  publishedAt: "2026-07-07T08:15:00+02:00",
+  featuredAt: "2026-07-07T08:15:00+02:00",
+
+  color: "#c8102e",
+lang: "fr",
+ image: "",
+
+  title: "La Belgique écrase les États-Unis (4-1) et file en quarts de finale",
+
+  summary:
+    "Les Diables Rouges ont livré une prestation convaincante en s'imposant 4-1 face aux États-Unis en huitième de finale de la Coupe du monde 2026. Grâce à cette large victoire, la Belgique rejoint les quarts de finale où elle affrontera l'Espagne.",
+
+  body: `
+    <p>
+      La Belgique poursuit son magnifique parcours dans la Coupe du monde 2026. Opposés aux États-Unis en huitième de finale, les Diables Rouges se sont imposés avec autorité sur le score de <strong>4 buts à 1</strong>, validant ainsi leur qualification pour les quarts de finale.
+    </p>
+
+    <p>
+      Dès les premières minutes, la sélection belge a imposé son rythme grâce à une organisation solide, une grande maîtrise du ballon et une efficacité offensive remarquable. Les États-Unis ont tenté de réagir, mais la Belgique est restée supérieure dans tous les secteurs du jeu.
+    </p>
+
+    <h3>Une démonstration de force</h3>
+
+    <p>
+      Les Diables Rouges ont su exploiter les erreurs défensives américaines tout en affichant une excellente cohésion collective. Leur réalisme devant le but leur a permis de s'imposer largement et de confirmer leur statut de prétendant au titre mondial.
+    </p>
+
+    <h3>Direction les quarts de finale</h3>
+
+    <p>
+      Grâce à ce succès, la Belgique retrouve les quarts de finale de la Coupe du monde où un défi de taille l'attend face à l'Espagne. Cette affiche promet un duel spectaculaire entre deux des meilleures sélections du tournoi.
+    </p>
+
+    <div class="article-note">
+      <strong>Score final :</strong> États-Unis 1-4 Belgique.<br>
+      <strong>Prochain rendez-vous :</strong> Espagne - Belgique, quart de finale de la Coupe du monde 2026.
+    </div>
+  `
+},
+     
+{
   id: "espagne-autriche-victoire-finale-3-0",
   number: "ART 5",
 
