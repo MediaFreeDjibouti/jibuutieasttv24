@@ -504,7 +504,7 @@ categoryName: "Info spéciale",
   categoryName: "Sports",
 
   publishedAt: "2026-07-07T08:15:00+02:00",
-  featuredAt: "2026-07-07T08:15:00+02:00",
+  featuredAt: "2026-07-07T10:15:00+02:00",
 
   color: "#c8102e",
 lang: "fr",
@@ -1232,7 +1232,7 @@ body: `
    number: "ART 2",
   categoryName: "Politique",
   publishedAt: "2026-07-07T07:35:00+02:00",
-  featuredAt: "2026-07-07T14:35:00+02:00",
+  featuredAt: "2026-07-07T09:35:00+02:00",
      color: "#d4a900",
   lang: "so",
     image: "",
