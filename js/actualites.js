@@ -2,7 +2,62 @@
    "use strict";
 
     const ARTICLES = [
-{
+
+    {
+  id: "quart-finalistes-coupe-du-monde-2026",
+
+  category: "info-speciale",
+  number: "ART 3",
+  categoryName: "Info spéciale",
+
+  publishedAt: "2026-07-08T06:10:00+02:00",
+  featuredAt: "2026-07-08T08:10:00+02:00",
+
+  color: "#ad1457",
+
+  lang: "fr",
+
+  image: "",
+
+  title: "Coupe du monde 2026 : L'Angleterre, l'Espagne et la Belgique qualifiées pour les quarts de finale",
+
+  summary:
+    "Les quarts de finale de la Coupe du monde 2026 prennent forme. Après des performances convaincantes, l'Angleterre, l'Espagne et la Belgique ont validé leur qualification et poursuivent leur rêve de décrocher le titre mondial.",
+
+  body: `
+    <p>
+      La Coupe du monde 2026 entre dans sa phase décisive. Trois grandes nations européennes, l'Angleterre, l'Espagne et la Belgique, ont décroché leur billet pour les quarts de finale après avoir remporté leurs matchs à élimination directe.
+    </p>
+
+    <p>
+      L'Angleterre poursuit son parcours avec confiance et ambition. Les Three Lions ont démontré leur solidité collective et leur efficacité offensive, confirmant leur statut de prétendants au sacre mondial.
+    </p>
+
+    <p>
+      De son côté, l'Espagne continue d'impressionner grâce à son jeu collectif, sa maîtrise technique et sa discipline tactique. La Roja s'avance avec détermination vers les quarts de finale.
+    </p>
+
+    <p>
+      La Belgique a également marqué les esprits en dominant les États-Unis sur le score de 4 buts à 1. Les Diables Rouges ont livré une prestation de haut niveau qui leur permet de rejoindre les huit meilleures sélections du tournoi.
+    </p>
+
+    <h3>Des affiches très attendues</h3>
+
+    <p>
+      Les quarts de finale promettent des confrontations de très haut niveau. La Belgique retrouvera l'Espagne dans un choc européen très attendu, tandis que l'Angleterre sera opposée à la Norvège pour tenter de décrocher une place dans le dernier carré.
+    </p>
+
+    <div class="article-note">
+      <strong>Quarts de finale :</strong><br>
+      🇪🇸 Espagne 🆚 🇧🇪 Belgique<br>
+      🏴 Angleterre 🆚 🇳🇴 Norvège
+    </div>
+  `
+} 
+     
+     
+     
+     {
   id: "mondial-2026-resultats-1-juillet-qualifies",
   number: "ART 2",
 
