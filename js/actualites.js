@@ -53,10 +53,7 @@
       🏴 Angleterre 🆚 🇳🇴 Norvège
     </div>
   `
-} 
-     
-     
-     
+},
      {
   id: "mondial-2026-resultats-1-juillet-qualifies",
   number: "ART 2",
