@@ -4,12 +4,12 @@
     const ARTICLES = [
 {
   "id": "grand-angle-amerindiens-2026",
-  "number": "ART 3",
-  "category": "grand-angle",
-  "categoryName": "Grand Angle",
+  "number": "ART 1",
+  "category": "Cultures",
+  "categoryName": "Cultures",
   "publishedAt": "2026-10-16T09:25:00+02:00",
   "featuredAt": "2026-10-16T09:25:00+02:00",
-  "color": "#ad1457",
+  "color": "#9a6700",
   "lang": "fr",
   "image": "images/culture-autochtone-amerique.png",
   "title": "Au cœur des nations amérindiennes : entre souveraineté, traditions et défis du XXIe siècle",
