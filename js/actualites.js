@@ -5,10 +5,10 @@
 {
   "id": "grand-angle-amerindiens-2026",
   "number": "ART 1",
-  "category": "Cultures",
+  "category": "cultures",
   "categoryName": "Cultures",
   "publishedAt": "2026-10-16T09:25:00+02:00",
-  "featuredAt": "2026-10-16T09:25:00+02:00",
+  "featuredAt": "2026-10-16T11:25:00+02:00",
   "color": "#9a6700",
   "lang": "fr",
   "image": "images/culture-autochtone-amerique.png",
